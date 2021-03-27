@@ -1,0 +1,417 @@
+{
+  "works": [
+    {
+      "year": "2013",
+      "number": "00",
+      "name": "Privetbureau",
+      "tags": [
+        "Web"
+      ]
+    },
+    {
+      "year": "2013",
+      "number": "01",
+      "name": "MrCable",
+      "tags": [
+        "Web"
+      ]
+    },
+    {
+      "year": "2013",
+      "number": "02",
+      "name": "Fripl",
+      "tags": [
+        "Server",
+        "Web"
+      ]
+    },
+    {
+      "year": "2013",
+      "number": "03",
+      "name": "Chasing The Sun",
+      "tags": [
+        "Web"
+      ]
+    },
+    {
+      "year": "2013",
+      "number": "04",
+      "name": "Geo",
+      "tags": [
+        "Server",
+        "Web"
+      ]
+    },
+    {
+      "year": "2013",
+      "number": "05",
+      "name": "Four Projects",
+      "tags": [
+        "Server",
+        "Web"
+      ]
+    },
+    {
+      "year": "2014",
+      "number": "01",
+      "name": "Realfie",
+      "tags": [
+        "Web"
+      ]
+    },
+    {
+      "year": "2014",
+      "number": "02",
+      "name": "Gustav & Gustav",
+      "tags": [
+        "Android",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2014",
+      "number": "03",
+      "name": "Япона-мама",
+      "tags": [
+        "Server",
+        "Web"
+      ]
+    },
+    {
+      "year": "2014",
+      "number": "04",
+      "name": "Фиксики",
+      "tags": [
+        "Web"
+      ]
+    },
+    {
+      "year": "2014",
+      "number": "05",
+      "name": "SRS",
+      "tags": [
+        "Server",
+        "Web"
+      ]
+    },
+    {
+      "year": "2014",
+      "number": "06",
+      "name": "Heart",
+      "tags": [
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2015",
+      "number": "01",
+      "name": "Mojo",
+      "tags": [
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2015",
+      "number": "02",
+      "name": "MASS",
+      "tags": [
+        "Server",
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2015",
+      "number": "03",
+      "name": "SmartSky",
+      "tags": [
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2015",
+      "number": "04",
+      "name": "Rolly",
+      "tags": [
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2015",
+      "number": "05",
+      "name": "Rodina.ru",
+      "tags": [
+        "Server",
+        "Web"
+      ]
+    },
+    {
+      "year": "2016",
+      "number": "01",
+      "name": "Клуб Конкурентов",
+      "tags": [
+        "Server",
+        "Web"
+      ]
+    },
+    {
+      "year": "2016",
+      "number": "02",
+      "name": "Dozari",
+      "tags": [
+        "Server",
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2016",
+      "number": "03",
+      "name": "Эхо",
+      "tags": [
+        "Bot"
+      ]
+    },
+    {
+      "year": "2016",
+      "number": "04",
+      "name": "MotoSpace",
+      "tags": [
+        "Server",
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2016",
+      "number": "05",
+      "name": "Little Hero",
+      "tags": [
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2017",
+      "number": "01",
+      "name": "Playboy Vietnam",
+      "tags": [
+        "Server",
+        "Web"
+      ]
+    },
+    {
+      "year": "2017",
+      "number": "02",
+      "name": "Sursum",
+      "tags": [
+        "Bot"
+      ]
+    },
+    {
+      "year": "2017",
+      "number": "03",
+      "name": "KBSE Taxi",
+      "tags": [
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2017",
+      "number": "04",
+      "name": "KitTravel",
+      "tags": [
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2017",
+      "number": "05",
+      "name": "Talk&Touch",
+      "tags": [
+        "Server",
+        "Swift",
+        "Web",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2018",
+      "number": "01",
+      "name": "Две столицы",
+      "tags": [
+        "Server",
+        "Web"
+      ]
+    },
+    {
+      "year": "2018",
+      "number": "02",
+      "name": "Ростех Опросы",
+      "tags": [
+        "Server",
+        "Web"
+      ]
+    },
+    {
+      "year": "2018",
+      "number": "03",
+      "name": "Шпилли-вилли",
+      "tags": [
+        "Server"
+      ]
+    },
+    {
+      "year": "2018",
+      "number": "04",
+      "name": "Feeler",
+      "tags": [
+        "Server",
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2018",
+      "number": "05",
+      "name": "Газпром",
+      "tags": [
+        "Web"
+      ]
+    },
+    {
+      "year": "2019",
+      "number": "01",
+      "name": "InCompany",
+      "tags": [
+        "Server",
+        "Swift",
+        "Web",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2019",
+      "number": "02",
+      "name": "Сбер Рассылки",
+      "tags": [
+        "Web"
+      ]
+    },
+    {
+      "year": "2019",
+      "number": "03",
+      "name": "TCA",
+      "tags": [
+        "Bot"
+      ]
+    },
+    {
+      "year": "2019",
+      "number": "04",
+      "name": "DonAmper",
+      "tags": [
+        "Server",
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2019",
+      "number": "05",
+      "name": "QTickets",
+      "tags": [
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2019",
+      "number": "06",
+      "name": "ViDo",
+      "tags": [
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2019",
+      "number": "07",
+      "name": "Шеф-Локал",
+      "tags": [
+        "Server",
+        "Web"
+      ]
+    },
+    {
+      "year": "2020",
+      "number": "01",
+      "name": "Аукцион цветов",
+      "tags": [
+        "Server",
+        "Web"
+      ]
+    },
+    {
+      "year": "2020",
+      "number": "02",
+      "name": "Better",
+      "tags": [
+        "iOS"
+      ]
+    },
+    {
+      "year": "2020",
+      "number": "03",
+      "name": "Talentum",
+      "tags": [
+        "Server",
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2020",
+      "number": "04",
+      "name": "NoteCalc",
+      "tags": [
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2020",
+      "number": "05",
+      "name": "Minq",
+      "tags": [
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2020",
+      "number": "06",
+      "name": "Pocketbook",
+      "tags": [
+        "Swift",
+        "iOS"
+      ]
+    },
+    {
+      "year": "2020",
+      "number": "07",
+      "name": "Don't drop",
+      "tags": [
+        "Server",
+        "Swift",
+        "iOS"
+      ]
+    }
+  ]
+}

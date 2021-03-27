@@ -1,0 +1,18 @@
+{
+  "name": "ALEKSAI",
+  "version": "1.0.0",
+  "description": "Personal web-site",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "scan": "node dist/scan.js",
+    "deploy": "pm2 deploy staging",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lenya Pugachev <lenyapugachev@me.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pm2": "^4.5.5"
+  }
+}

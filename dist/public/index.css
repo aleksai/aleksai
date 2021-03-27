@@ -1,0 +1,68 @@
+body {
+	background-color: blue;
+
+	font-family: 'Source Code Pro', sans-serif;
+
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	z-index: 100;
+	position: absolute;
+	bottom: 60px;
+	right: 60px;
+
+	width: 280px;
+}
+
+nav > a {
+	display: block;
+
+	font-size: 50px;
+	font-weight: 700;
+
+	letter-spacing: -1px;
+
+	color: white;
+}
+
+nav > a:hover {
+	background: linear-gradient(to bottom right, #0A00FF 0%, #F51641 16.667%, #E42369 34.334%, #FF1621 50%, #0A00FF 66.667%, #0A00FF 83.334%, #F51641 100%);
+	background-size: 300%;
+	background-clip: text;
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+	animation: shine 0.5s linear infinite;
+}
+
+@keyframes shine {
+	to {
+		background-position: right;
+	}
+}
+
+nav .years {
+	margin-bottom: 40px;
+}
+
+nav .years a {
+	color: white;
+
+	opacity: 0.8;
+}
+
+nav .years a:hover {
+	background: linear-gradient(to bottom right, #0A00FF 0%, #F51641 16.667%, #E42369 34.334%, #FF1621 50%, #0A00FF 66.667%, #0A00FF 83.334%, #F51641 100%);
+	background-size: 300%;
+	background-clip: text;
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+canvas {
+	position: absolute;
+}
