@@ -54,7 +54,7 @@ nav > a:hover {
 }
 
 .home {
-	position: absolute;
+	position: fixed;
 	top: 32px;
 	right: 32px;
 }
@@ -219,7 +219,7 @@ canvas {
 		font-size: 21px;
 	}
 
-	nav {
+	nav:not(.index) {
 		position: static;
 
 		width: 100%;
