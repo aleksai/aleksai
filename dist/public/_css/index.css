@@ -1,0 +1,230 @@
+* {
+	box-sizing: border-box;
+}
+
+.hidden {
+	display: none;
+}
+
+body {
+	background-color: blue;
+
+	font-family: 'Source Code Pro', monospace;
+
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	z-index: 100;
+
+	position: fixed;
+	bottom: 60px;
+	right: 60px;
+
+	width: 280px;
+}
+
+nav > a {
+	display: block;
+
+	font-size: 50px;
+	font-weight: 700;
+
+	letter-spacing: -1px;
+
+	color: white;
+}
+
+nav > a:hover {
+	background: linear-gradient(to bottom right, #0A00FF 0%, #F51641 16.667%, #E42369 34.334%, #FF1621 50%, #0A00FF 66.667%, #0A00FF 83.334%, #F51641 100%);
+	background-size: 300%;
+	background-clip: text;
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+	animation: shine 0.5s linear infinite;
+}
+
+@keyframes shine {
+	to {
+		background-position: right;
+	}
+}
+
+.home {
+	position: absolute;
+	top: 32px;
+	right: 32px;
+}
+
+.home img {
+	width: 32px;
+	height: 32px;
+}
+
+nav .shorts {
+	margin-bottom: 40px;
+}
+
+nav .shorts a {
+	color: white;
+
+	opacity: 0.8;
+}
+
+nav .shorts a:hover {
+	background: linear-gradient(to bottom right, #0A00FF 0%, #F51641 16.667%, #E42369 34.334%, #FF1621 50%, #0A00FF 66.667%, #0A00FF 83.334%, #F51641 100%);
+	background-size: 300%;
+	background-clip: text;
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+main:not(.index) {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: calc(100% - 400px);
+	min-height: calc(100% - 40px);
+
+	margin: 20px;
+	padding: 20px;
+
+	background-color: #F0F3F5;
+}
+
+main h2, main h3 {
+	margin: 0;
+
+	word-wrap: break-word;
+}
+
+canvas {
+	position: absolute;
+}
+
+.code_carret {
+	background-color: black;
+
+	animation: blink 1s linear infinite;
+
+	border-radius: 1px;
+}
+
+@keyframes blink {
+	20% {
+		opacity: 0;
+	}
+
+	80% {
+		opacity: 0;
+	}
+}
+
+.code_custom {
+	color: #0B7A75;
+}
+
+.code_number {
+	color: #0A00FF;
+}
+
+.code_string {
+	color: #FF495C;
+}
+
+.code_comment {
+	color: #D7C9AA;
+}
+
+.icons .icon {
+	display: inline-block;
+
+	width: 24px;
+	height: 24px;
+
+	margin-left: 3px;
+
+	border-radius: 12px;
+
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #D7C9AA;
+}
+
+.icons .icon.ios {
+	background-image: url(/_images/ios.png);
+}
+
+.icons .icon.android {
+	background-image: url(/_images/android.png);
+}
+
+.icons .icon.server {
+	background-image: url(/_images/server.png);
+}
+
+.icons .icon.web {
+	background-image: url(/_images/web.png);
+	background-size: 70%;
+}
+
+.icons .icon.swift {
+	background-image: url(/_images/swift.png);
+	background-size: 88%;
+}
+
+.icons .icon.bot {
+	background-image: url(/_images/bot.png);
+}
+
+.icons .icon.php {
+	background-image: url(/_images/php.png);
+}
+
+.icons .icon.node-js {
+	background-image: url(/_images/node-js.png);
+	background-size: 74%;
+}
+
+.icons .icon.solidity {
+	background-image: url(/_images/solidity.png);
+	background-size: 66%;
+}
+
+.icons .icon.react {
+	background-image: url(/_images/react.png);
+}
+
+@media only screen and (max-width: 900px) {
+
+	.only-desktop {
+		display: none;
+	}
+
+	main:not(.index) {
+		position: static;
+
+		width: 100%;
+
+		margin: 0;
+	}
+
+	main h2 {
+		font-size: 21px;
+	}
+
+	nav {
+		position: static;
+
+		width: 100%;
+
+		padding: 20px;
+	}
+
+}

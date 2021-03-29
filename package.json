@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "dev": "nodemon .",
-    "scan": "node dist/scan.js",
+    "scan": "node dist/scanner.js",
     "deploy": "pm2 deploy staging",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +14,11 @@
   "dependencies": {
     "express": "^4.17.1",
     "pm2": "^4.5.5"
+  },
+  "devDependencies": {
+    "color-thief": "^2.2.5",
+    "compress-images": "^1.9.8",
+    "gifsicle": "^5.2.0",
+    "pngquant-bin": "^6.0.0"
   }
 }

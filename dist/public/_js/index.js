@@ -4,7 +4,7 @@ let frame;
 function setup() {
 	createCanvas(window.innerWidth, window.innerHeight, WEBGL);
 	angleMode(DEGREES);
-	robot = loadModel('cursor.obj', true);
+	robot = loadModel('/_images/cursor.obj', true);
 }
 
 function draw() {
