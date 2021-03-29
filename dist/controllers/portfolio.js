@@ -23,30 +23,39 @@ module.exports = function (app) {
 
 			var icons = "";
 			var links = "";
+			var files = "";
 
 			for (var i = 0; i < work.tags.length; i++) {
 				const tag = work.tags[i]
 
-				icons += '<div class="icon-wrapper"><div title="' + tag + '" class="icon ' + tag.replace(".","-").toLowerCase() + '"></div> ' + tag + '</div>';
+				icons += '<div class="icon-wrapper"><div title="' + tag + '" class="icon ' + tag.replace(".","-").toLowerCase() + '"></div> <span>' + tag + '</span></div>';
 			}
 
-			if(work.info.url) links += '<div class="link-wrapper"><a href="' + work.info.url + '">' + work.info.url.replace("https://","").replace("http://","") + '</a></div>'
-			if(work.info.ios) links += '<div class="link-wrapper"><a href="' + work.info.ios + '">App Store</a></div>'
-			if(work.info.android) links += '<div class="link-wrapper"><a href="' + work.info.android + '">Google Play Store</a></div>'
+			for (var i = 0; i < work.info.files.length; i++) {
+				const file = work.info.files[i]
+
+				files += '<a target="_blank" href="/_images/catalog/' + file.file + '"><img class="file" src="/_images/catalog/' + file.file + '" /></a>'
+			}
+
+			if(work.info.url) links += '<a target="_blank" href="' + work.info.url + '">' + work.info.url.replace("https://","").replace("http://","") + '</a>'
+			if(work.info.ios) links += (links.length ? ' | ' : '') + '<a target="_blank" href="' + work.info.ios + '">iOS app</a>'
+			if(work.info.android) links += (links.length ? ' | ' : '') + '<a target="_blank" href="' + work.info.android + '">Android app</a>'
 
 			html = html.replace(new RegExp("<!-- CONTENT -->", "g"), '\
 				<div class="get">\
 					<h2>print <span class="code_custom">get<span class="only-desktop">Work</span></span>(<span class="code_string">"' + work.info.title + '"</span>)</h2>\
-					<div class="year">' + work.year + '</div>\
+					\
+					<h3>' + work.info.subtitle + ' <div class="year">' + work.year + '</div></h3>\
 					<div class="icons">\
 						' + icons + '\
 					</div>\
 					<div class="links">\
 						' + links + '\
 					</div>\
-					<div class="title">' + work.info.title + '</div>\
-					<div class="subtitle">' + work.info.subtitle + '</div>\
 					<div class="description">' + work.info.description + '</div>\
+					<div class="files">\
+						' + files + '\
+					</div>\
 				</div>' +
 				(additional_work ? '<div class="more">\
 					<h2>print <span class="code_custom">more</span>()<span id="carret" class="code_carret">&nbsp;</span></h2>\

@@ -74,18 +74,22 @@
 	text-align: center;
 }
 
+.year {
+	display: inline-block;
+
+	padding: 2px 4px;
+
+	background-color: #0B7A75;
+	color: white;
+	border-radius: 8px;
+}
+
 #portfolio .work .year {
 	z-index: 100;
 
 	position: absolute;
 	top: 22px;
 	left: 48px;
-	
-	padding: 2px 4px;
-
-	background-color: #0B7A75;
-	color: white;
-	border-radius: 8px;
 }
 
 #portfolio .work .info {
@@ -139,11 +143,82 @@
 	color: white;
 }
 
-main .get {
+.get {
 	min-height: calc(100vh - 282px);
 }
 
-main .more {
+.get h1 {
+	margin-bottom: 0;
+}
+
+.get h3 {
+	margin-top: 30px;
+}
+
+.get .description {
+	margin-top: 20px;
+	margin-right: 20%;
+
+	color: #444;
+}
+
+.get .icons {
+	margin: 20px 0;
+	padding-left: 8px;
+
+	border-left: 6px solid black;
+}
+
+.get .icons .icon-wrapper .icon {
+	position: relative;
+	top: 2px;
+}
+
+.get .icons .icon-wrapper span {
+	position: relative;
+	top: -3px;
+
+	color: #444;
+}
+
+.get .links {
+	margin-top: 20px;
+}
+
+.get .links a {
+	color: black;
+}
+
+.get .links a:hover {
+	background: linear-gradient(to bottom right, #0A00FF 0%, #F51641 16.667%, #E42369 34.334%, #FF1621 50%, #0A00FF 66.667%, #0A00FF 83.334%, #F51641 100%);
+	background-size: 300%;
+	background-clip: text;
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.get .files {
+	margin-top: 30px;
+}
+
+.get .files .file {
+	display: inline-block;
+
+	max-width: 100vh;
+	max-height: 50vh;
+
+	margin-right: 10px;
+	margin-bottom: 6px;
+
+	background-size: cover;
+	background-position: center;
+
+	border: 8px solid #dedede;
+	border-radius: 8px;
+}
+
+.more {
 	margin-top: 40px;
 }
 
@@ -153,11 +228,15 @@ main .more {
 		width: calc(100% - 20px);
 	}
 
-	main .get {
+	.get {
 		min-height: auto;
 	}
 
-	main .more {
+	.get .files .file {
+		max-width: 100%;
+	}
+
+	.more {
 		margin: 0;
 		margin-top: 40px;
 	}
