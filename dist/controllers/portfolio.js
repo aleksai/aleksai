@@ -34,7 +34,7 @@ module.exports = function (app) {
 			for (var i = 0; i < work.info.files.length; i++) {
 				const file = work.info.files[i]
 
-				files += '<a target="_blank" href="/_images/catalog/' + file.file + '"><img class="file" src="/_images/catalog/' + file.file + '" /></a>'
+				files += '<a target="_blank" href="/_images/catalog/' + file.file + '"><img class="file" style="background-color: ' + file.color + '" src="/_images/catalog/' + file.file + '" /></a>'
 			}
 
 			if(work.info.url) links += '<a target="_blank" href="' + work.info.url + '">' + work.info.url.replace("https://","").replace("http://","") + '</a>'
