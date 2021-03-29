@@ -28,6 +28,15 @@ module.exports = {
       repo : 'git@github.com:lenyapugachev/aleksai.git',
       path : '/var/www/aleksai',
       'post-deploy' : 'npm i && ./node_modules/pm2/bin/pm2 start ecosystem.config.js --env staging'
+    },
+    production : {
+      user : 'root',
+      host : 'gb.lenyapugachev.com',
+      key  : '~/.ssh/id_rsa',
+      ref  : 'origin/master',
+      repo : 'git@github.com:lenyapugachev/aleksai.git',
+      path : '/var/www/aleksai-production',
+      'post-deploy' : 'npm i && ./node_modules/pm2/bin/pm2 start ecosystem.config.js --env production'
     }
   }
 };

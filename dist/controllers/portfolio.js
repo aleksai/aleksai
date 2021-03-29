@@ -82,17 +82,17 @@ module.exports = function (app) {
 				\
 				<!-- Open Graph / Facebook -->\
 				<meta property="og:type" content="website">\
-				<meta property="og:url" content="https://aleksai.space/portfolio/' + work.year + '-' + work.number + '-' + work.name + '">\
+				<meta property="og:url" content="https://aleksai.dev/portfolio/' + work.year + '-' + work.number + '-' + work.name + '">\
 				<meta property="og:title" content="ALEKSAI Portfolio — ' + work.info.title + ' — ' + work.info.subtitle + '">\
 				<meta property="og:description" content="' + work.info.description + '">\
-				<meta property="og:image" content="https://aleksai.space/_images/logo.png">\
+				<meta property="og:image" content="https://aleksai.dev/_images/logo.png">\
 				\
 				<!-- Twitter -->\
 				<meta property="twitter:card" content="summary_large_image">\
-				<meta property="twitter:url" content="https://aleksai.space/portfolio/' + work.year + '-' + work.number + '-' + work.name + '">\
+				<meta property="twitter:url" content="https://aleksai.dev/portfolio/' + work.year + '-' + work.number + '-' + work.name + '">\
 				<meta property="twitter:title" content="ALEKSAI Portfolio — ' + work.info.title + ' — ' + work.info.subtitle + '">\
 				<meta property="twitter:description" content="' + work.info.description + '">\
-				<meta property="twitter:image" content="https://aleksai.space/_images/logo.png">')
+				<meta property="twitter:image" content="https://aleksai.dev/_images/logo.png">')
 
 			res.send(html)
 		})
