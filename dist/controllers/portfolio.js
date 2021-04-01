@@ -2,14 +2,14 @@ const fs = require("fs")
 
 module.exports = function (app) {
 
-	app.get("/portfolio/:year-:number-:name", getWork)
+	app.get("/:lang?/portfolio/:year-:number-:name", getWork)
 
 	async function getWork(req, res) {
-		const { year, number } = req.params
+		const { year, number, lang } = req.params
 
 		if(!year || !/^[0-9]{4}$/.test(year) || !number || !/^[0-9]{2}$/.test(number)) return res.redirect("/")
 
-		const catalog = require(__dirname + "/../public/catalog.json")
+		const catalog = require(__dirname + "/../public/catalog" + (lang === "ru" ? ".ru" : "") + ".json")
 		const work = catalog.works.filter(work => work.year === year && work.number === number)[0]
 
 		if(!work || !work.info) return res.redirect("/")
@@ -18,7 +18,7 @@ module.exports = function (app) {
 		if(!additional_work) additional_work = catalog.works.filter(_work => _work.info && _work.info.highlight && (_work.year !== work.year || _work.number !== work.number)).sort(() => .5 - Math.random())[0]
 		if(!additional_work) additional_work = catalog.works.filter(_work => _work.info && (_work.year !== work.year || _work.number !== work.number)).sort(() => .5 - Math.random())[0]
 
-		fs.readFile(__dirname + "/../public/portfolio/_work.html", (err, data) => {
+		fs.readFile(__dirname + "/../public/" + (lang === "ru" ? "ru/" : "") + "portfolio/_work.html", (err, data) => {
 			var html = data.toString()
 
 			var icons = "";
@@ -58,9 +58,9 @@ module.exports = function (app) {
 					</div>\
 				</div>' +
 				(additional_work ? '<div class="more">\
-					<h2>print <span class="code_custom">more</span>()<span id="carret" class="code_carret">&nbsp;</span></h2>\
+					<h2>print <span class="code_custom">moreWorks</span>()<span id="carret" class="code_carret">&nbsp;</span></h2>\
 					<div id="portfolio" style="margin-top: 20px">\
-						<a class="work highlighted" href="/portfolio/' + additional_work.year + '-' + additional_work.number + '-' + additional_work.name + '">\
+						<a class="work highlighted" href="/' + (lang === "ru" ? "ru/" : "") + 'portfolio/' + additional_work.year + '-' + additional_work.number + '-' + additional_work.name + '">\
 							<div class="logo">\
 								<div class="bg" style="background-color: ' + additional_work.info.logo + '; background-image: url(/_images/catalog/' + additional_work.year + '-' + additional_work.number + '-logo.png)"></div>\
 								<div class="number" style="color: ' + (additional_work.info.logo ? 'transparent' : 'black') + '">' + additional_work.number + '</div>\
@@ -74,7 +74,28 @@ module.exports = function (app) {
 					</div>\
 				</div>' : ''))
 
-			html = html.replace(new RegExp("<!-- TAGS -->", "g"), '\
+			if(lang === "ru") {
+				html = html.replace(new RegExp("<!-- TAGS -->", "g"), '\
+				<!-- Primary Meta Tags -->\
+				<title>ALEKSAI Работы — ' + work.info.title + ' — ' + work.info.subtitle + '</title>\
+				<meta name="title" content="ALEKSAI Работы — ' + work.info.title + ' — ' + work.info.subtitle + '">\
+				<meta name="description" content="' + work.info.description + '">\
+				\
+				<!-- Open Graph / Facebook -->\
+				<meta property="og:type" content="website">\
+				<meta property="og:url" content="https://aleksai.dev/ru/portfolio/' + work.year + '-' + work.number + '-' + work.name + '">\
+				<meta property="og:title" content="ALEKSAI Работы — ' + work.info.title + ' — ' + work.info.subtitle + '">\
+				<meta property="og:description" content="' + work.info.description + '">\
+				<meta property="og:image" content="https://aleksai.dev/_images/logo.png">\
+				\
+				<!-- Twitter -->\
+				<meta property="twitter:card" content="summary_large_image">\
+				<meta property="twitter:url" content="https://aleksai.dev/ru/portfolio/' + work.year + '-' + work.number + '-' + work.name + '">\
+				<meta property="twitter:title" content="ALEKSAI Работы — ' + work.info.title + ' — ' + work.info.subtitle + '">\
+				<meta property="twitter:description" content="' + work.info.description + '">\
+				<meta property="twitter:image" content="https://aleksai.dev/_images/logo.png">')
+			} else {
+				html = html.replace(new RegExp("<!-- TAGS -->", "g"), '\
 				<!-- Primary Meta Tags -->\
 				<title>ALEKSAI Portfolio — ' + work.info.title + ' — ' + work.info.subtitle + '</title>\
 				<meta name="title" content="ALEKSAI Portfolio — ' + work.info.title + ' — ' + work.info.subtitle + '">\
@@ -93,6 +114,7 @@ module.exports = function (app) {
 				<meta property="twitter:title" content="ALEKSAI Portfolio — ' + work.info.title + ' — ' + work.info.subtitle + '">\
 				<meta property="twitter:description" content="' + work.info.description + '">\
 				<meta property="twitter:image" content="https://aleksai.dev/_images/logo.png">')
+			}
 
 			res.send(html)
 		})

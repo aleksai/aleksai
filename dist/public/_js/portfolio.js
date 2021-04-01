@@ -54,7 +54,7 @@ function printPortfolio(data, portfolio, noYear) {
 
 		if(!work.info) work.info = { title: work.name };
 
-		html += '<a class="work" href="/portfolio/' + work.year + '-' + work.number + '-' + work.name + '">\
+		html += '<a class="work" href="' + (window.location.pathname.substr(0,3) === '/ru' ? '/ru/portfolio/' : '/portfolio/') + work.year + '-' + work.number + '-' + work.name + '">\
 					<div class="logo">\
 						<div class="bg" style="background-color: ' + work.info.logo + '; background-image: url(/_images/catalog/' + work.year + '-' + work.number + '-logo.png)"></div>\
 						<div class="number" style="color: ' + (work.info.logo ? 'transparent' : 'black') + '">' + work.number + '</div>\
@@ -115,7 +115,7 @@ function updateHash() {
 function init() {
 	updateHash();
 
-	XHR("/catalog.json", null, function(data) {
+	XHR("/catalog" + (window.location.pathname.substr(0,3) === '/ru' ? '.ru' : '') + ".json", null, function(data) {
 		_data = data;
 
 		updateHash();

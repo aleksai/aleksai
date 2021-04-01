@@ -19,7 +19,7 @@ function init() {
 			var html = "";
 
 			for (var i = data.years.length - 1; i >= 0; i--) {
-				html += '<a href="' + (tags ? '' : '/portfolio') + '#' + data.years[i] + '">' + data.years[i] + '</a> ';
+				html += '<a href="' + (tags ? '' : (window.location.pathname.substr(0,3) === '/ru' ? '/ru/portfolio' : '/portfolio')) + '#' + data.years[i] + '">' + data.years[i] + '</a> ';
 			}
 
 			years.innerHTML = html;

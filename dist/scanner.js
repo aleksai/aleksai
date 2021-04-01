@@ -18,8 +18,9 @@ async function scan() {
 	const catalog = __dirname + "/../catalog"
 	const public_catalog = __dirname + "/public/_images/catalog"
 	const public_catalog_noncompressed = __dirname + "/public/_images/catalog-nonco"
-	const json_file = __dirname + "/public/catalog.json"
 	const json_shorts_file = __dirname + "/public/catalog.shorts.json"
+
+	const locales = ["", "ru"]
 
 	const colorThief = new ColorThief()
 
@@ -30,8 +31,12 @@ async function scan() {
 	fs.rmdirSync(public_catalog_noncompressed, { recursive: true })
 	fs.mkdirSync(public_catalog_noncompressed)
 
-	var works = []
+	var works = {}
 	var short = { years: [], tags: [] }
+
+	for (var i = 0; i < locales.length; i++) {
+		works[locales[i]] = [];
+	}
 
 	for (var i = 0; i < files.length; i++) {
 		const year = files[i]
@@ -62,57 +67,63 @@ async function scan() {
 								if(!short.tags.includes(tag)) short.tags.push(tag)
 							}
 
-							try {
-								const info_data = fs.readFileSync(work_folder + "/info.txt", "utf8")
-								const lines = info_data.split("\n")
+							for (var m = 0; m < locales.length; m++) {
+								const locale = locales[m]
 
-								var info = { files: [] }
+								try {
+									console.log("/info" + (locale === "" ? "" : ("." + locale)) + ".txt")
+									const info_data = fs.readFileSync(work_folder + "/info" + (locale === "" ? "" : ("." + locale)) + ".txt", "utf8")
+									console.log(info_data.length)
+									const lines = info_data.split("\n")
 
-								for (var l = 0; l < lines.length; l++) {
-									const line = lines[l]
-									const info_parts = line.split(":")
+									var info = { files: [] }
 
-									if(info_parts.length >= 2) {
-										const key = info_parts.shift().trim()
-										var value = info_parts.map(i => i.trim()).join(":")
+									for (var l = 0; l < lines.length; l++) {
+										const line = lines[l]
+										const info_parts = line.split(":")
 
-										if(value === "true") value = true
-										if(value === "false") value = false
+										if(info_parts.length >= 2) {
+											const key = info_parts.shift().trim()
+											var value = info_parts.map(i => i.trim()).join(":")
 
-										info[key] = value
+											if(value === "true") value = true
+											if(value === "false") value = false
+
+											info[key] = value
+										}
 									}
-								}
 
-								const logo_file = work_folder + "/logo.png"
+									const logo_file = work_folder + "/logo.png"
 
-								if(fs.existsSync(logo_file)) {
-									const image = fs.readFileSync(logo_file)
+									if(fs.existsSync(logo_file)) {
+										const image = fs.readFileSync(logo_file)
 
-									info.logo = rgbToHex(colorThief.getColor(image))
-									
-									fs.copyFileSync(logo_file, public_catalog_noncompressed + "/" + year + "-" + parse[1] + "-" + "logo.png")
-								}
-
-								const work_files = fs.readdirSync(work_folder)
-
-								for (var l = 0; l < work_files.length; l++) {
-									const possible_image = work_files[l]
-
-									if(/(.*)\.(jpg|png|gif)/.test(possible_image) && possible_image !== "logo.png") {
-										const pic = year + "-" + parse[1] + "-" + possible_image
-
-										const image = fs.readFileSync(work_folder + "/" + possible_image)
-
-										info.files.push({ file: pic, color: rgbToHex(colorThief.getColor(image)) })
-
-										fs.copyFileSync(work_folder + "/" + possible_image, public_catalog_noncompressed + "/" + pic)
+										info.logo = rgbToHex(colorThief.getColor(image))
+										
+										fs.copyFileSync(logo_file, public_catalog_noncompressed + "/" + year + "-" + parse[1] + "-" + "logo.png")
 									}
+
+									const work_files = fs.readdirSync(work_folder)
+
+									for (var l = 0; l < work_files.length; l++) {
+										const possible_image = work_files[l]
+
+										if(/(.*)\.(jpg|png|gif)/.test(possible_image) && possible_image !== "logo.png") {
+											const pic = year + "-" + parse[1] + "-" + possible_image
+
+											const image = fs.readFileSync(work_folder + "/" + possible_image)
+
+											info.files.push({ file: pic, color: rgbToHex(colorThief.getColor(image)) })
+
+											fs.copyFileSync(work_folder + "/" + possible_image, public_catalog_noncompressed + "/" + pic)
+										}
+									}
+								} catch(error) {
+									// console.log("[Error]", error)
 								}
-							} catch(error) {
-								// console.log("[Error]", error)
+
+								works[locale].push({ year, tags, info, number: parse[1], name: parse[2] })
 							}
-
-							works.push({ year, tags, info, number: parse[1], name: parse[2] })
 						}
 					}
 				}
@@ -140,13 +151,18 @@ async function scan() {
 		}
 	)
 
-	fs.writeFileSync(
-		json_file,
-		JSON.stringify({ works },null,2),
-		{ encoding: "utf8", flag: "w" }
-	)
+	for (var i = 0; i < locales.length; i++) {
+		const locale = locales[i]
+		const filename = "catalog" + (locale === "" ? "" : ("." + locale)) + ".json"
 
-	console.log("catalog.json written")
+		fs.writeFileSync(
+			__dirname + "/public/" + filename,
+			JSON.stringify({ works: works[locale] },null,2),
+			{ encoding: "utf8", flag: "w" }
+		)
+
+		console.log(filename + " written")
+	}
 
 	fs.writeFileSync(
 		json_shorts_file,
