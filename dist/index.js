@@ -11,6 +11,10 @@ app.use(express.json())
 
 controllers.pass(app)
 
+app.get("*", function (req, res) {
+	res.redirect("/")
+})
+
 app.listen(config.port, () => {
 	console.log("Listening at http://localhost:" + config.port)
 })

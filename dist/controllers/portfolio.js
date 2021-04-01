@@ -98,10 +98,4 @@ module.exports = function (app) {
 		})
 	}
 
-	app.get("*", errorPage)
-
-	function errorPage(req, res) {
-		res.redirect("/")
-	}
-
 }

@@ -13,7 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "pm2": "^4.5.5"
+    "pm2": "^4.5.5",
+    "telegram-bot-api": "^2.0.1"
   },
   "devDependencies": {
     "color-thief": "^2.2.5",

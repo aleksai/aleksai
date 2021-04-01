@@ -9,7 +9,7 @@ function XHR(url, token, onComplete, onError, method, params) {
 			var data = JSON.parse(xhr.responseText);
 			onComplete(data ? data : xhr.responseText);
 		} else {
-			onError(JSON.parse(xhr.responseText).message || xhr.responseText);
+			onError(xhr.responseText);
 		}
 	};
 

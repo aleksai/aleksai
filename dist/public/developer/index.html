@@ -27,22 +27,33 @@
 	<link rel="icon" href="/favicon.gif" type="image/gif">
 
 	<link rel="stylesheet" href="/_css/index.css" type="text/css">
+	<link rel="stylesheet" href="/_css/developer.css" type="text/css">
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+	<main class="index">
+		<div id="bar">
+			<textarea id="message" class="transparent"></textarea><span id="carret" class="code_carret transparent">&nbsp;</span>
+		</div>
+		<div id="chat">
+			<div class="message mine transparent"><h2>Hi! 👋</h2></div>
+			<div class="message mine transparent"><h2>I'm Aleksai, freelancing full-stack engineer. I can do literally anything digital. Starting robot-for-rent business? Want to mint your own NFT tokens?</h2></div>
+			<div class="message mine transparent"><h2><a target="_blank" href="https://t.me/lenyapugachev">Drop a message</a> in Telegram or just <a href="mailto:lenyapugachev@me.com">mail me</a>.</h2></div>
+			<div class="message mine transparent"><h2>Also feel free to write me a message here, just <span class="only-desktop">begin to type it and then hit return to send</span><span class="only-mobile">tap bottom of this page to begin, and hit return to send it</span>.</h2></div>
+		</div>
+	</main>
+
 	<a href="/" class="home"><img src="/_images/logo.png"></a>
 
 	<nav>
 		<a href="/portfolio" class="linear-wipe">Portfolio</a>
-		<div id="years" class="shorts"></div>
 		<a href="https://github.com/lenyapugachev">Github <img src="/_images/github.png" width="40" height="40"></a>
 	</nav>
 	
 	<script src="/_js/xhr.js"></script>
-	<script src="/_js/short.js"></script>
 	<script src="/_js/developer.js"></script>
 </body>
 

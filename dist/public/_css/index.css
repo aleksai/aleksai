@@ -6,6 +6,11 @@
 	display: none;
 }
 
+.transparent {
+	pointer-events: none;
+	opacity: 0;
+}
+
 body {
 	background-color: blue;
 
@@ -201,10 +206,18 @@ canvas {
 	background-image: url(/_images/react.png);
 }
 
+.only-mobile {
+	display: none;
+}
+
 @media only screen and (max-width: 900px) {
 
 	.only-desktop {
 		display: none;
+	}
+
+	.only-mobile {
+		display: inline;
 	}
 
 	main:not(.index) {
