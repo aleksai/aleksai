@@ -26,9 +26,9 @@ async function scan() {
 
 	const files = fs.readdirSync(catalog)
 
-	fs.rmdirSync(public_catalog, { recursive: true })
+	if(fs.existsSync(public_catalog)) fs.rmdirSync(public_catalog, { recursive: true })
 	fs.mkdirSync(public_catalog)
-	fs.rmdirSync(public_catalog_noncompressed, { recursive: true })
+	if(fs.existsSync(public_catalog_noncompressed)) fs.rmdirSync(public_catalog_noncompressed, { recursive: true })
 	fs.mkdirSync(public_catalog_noncompressed)
 
 	var works = {}

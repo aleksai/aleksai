@@ -188,13 +188,13 @@ function triggerHistory() {
     setTimeout(function() {
       switch(_chatdata.history.length) {
         case 1:
-          addMessage("Thank you for your message! Can I ask what is your name?", "mine");
+          addMessage(locale.message_bot_1, "mine");
         break
         case 3:
-          addMessage("Nice to meet you! 🖖 How I can contact you?", "mine");
+          addMessage(locale.message_bot_2, "mine");
         break
         case 5:
-          addMessage("Well noted.", "mine");
+          addMessage(locale.message_bot_3, "mine");
         break
       }
 
