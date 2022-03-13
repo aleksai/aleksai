@@ -379,8 +379,23 @@
         "Server",
         "Web"
       ],
+      "info": {
+        "files": [
+          {
+            "file": "2020-01-1.png",
+            "color": "#EDF1F7"
+          },
+          {
+            "file": "2020-01-2.png",
+            "color": "#EDF1F7"
+          }
+        ],
+        "title": "Flowers Auction",
+        "subtitle": "Holland-type auction",
+        "description": "Holland-type flowers auction for bulk purchases right from gardeners."
+      },
       "number": "01",
-      "name": "Аукцион цветов"
+      "name": "Flowers Auction"
     },
     {
       "year": "2020",
@@ -388,6 +403,26 @@
         "Swift",
         "iOS"
       ],
+      "info": {
+        "files": [
+          {
+            "file": "2020-02-1.jpg",
+            "color": "#14121C"
+          },
+          {
+            "file": "2020-02-2.jpg",
+            "color": "#14121C"
+          },
+          {
+            "file": "2020-02-3.jpg",
+            "color": "#14121C"
+          }
+        ],
+        "title": "Better",
+        "subtitle": "Self-control and education app",
+        "description": "Big startup for self-education, self-control.",
+        "logo": "#14121C"
+      },
       "number": "02",
       "name": "Better"
     },
@@ -399,6 +434,13 @@
         "Server",
         "iOS"
       ],
+      "info": {
+        "url": "https://www.cheflocal.ru/home",
+        "title": "Talentum",
+        "subtitle": "Your private chef service",
+        "description": "A professional cooking especially for you is a real pleasure. But in the past it was difficult and expensive. Calling a personal chef is as easy as ordering a taxi with Talentum.",
+        "logo": "#ffffff"
+      },
       "number": "03",
       "name": "Talentum"
     },
@@ -408,6 +450,23 @@
         "Swift",
         "iOS"
       ],
+      "info": {
+        "files": [
+          {
+            "file": "2020-04-1.png",
+            "color": "#ffffff"
+          },
+          {
+            "file": "2020-04-2.png",
+            "color": "#ffffff"
+          }
+        ],
+        "title": "NoteCalc",
+        "subtitle": "Notes with calculator",
+        "description": "Notes application with calculator included, everything should be(mathematical operations, currency and measure conversions), will be automatically calculated.",
+        "highlight": true,
+        "logo": "#ffffff"
+      },
       "number": "04",
       "name": "NoteCalc"
     },
@@ -417,19 +476,35 @@
         "Swift",
         "iOS"
       ],
+      "info": {
+        "files": [
+          {
+            "file": "2020-05-1.png",
+            "color": "#ffffff"
+          },
+          {
+            "file": "2020-05-2.png",
+            "color": "#ffffff"
+          },
+          {
+            "file": "2020-05-3.png",
+            "color": "#ffffff"
+          },
+          {
+            "file": "2020-05-4.png",
+            "color": "#ffffff"
+          }
+        ],
+        "url": "https://getpocketbook.com",
+        "ios": "https://apps.apple.com/au/app/pocketbook-expense-tracker/id653330894",
+        "title": "Pocketbook",
+        "subtitle": "Budgeting and expense tracker",
+        "description": "Take control of your money with Australia’s most loved personal finance app trusted by more than 800,000 users.",
+        "highlight": true,
+        "logo": "#EF4665"
+      },
       "number": "05",
       "name": "Pocketbook"
-    },
-    {
-      "year": "2020",
-      "tags": [
-        "Node.js",
-        "Server",
-        "Swift",
-        "iOS"
-      ],
-      "number": "06",
-      "name": "Don't drop"
     },
     {
       "year": "2021",
@@ -512,6 +587,58 @@
       },
       "number": "03",
       "name": "Unique"
+    },
+    {
+      "year": "2021",
+      "tags": [
+        "Bot",
+        "Node.js"
+      ],
+      "info": {
+        "files": [
+          {
+            "file": "2021-04-1.png",
+            "color": "#3a3429"
+          }
+        ],
+        "url": "https://github.com/alek-sai/chia-alert",
+        "title": "ChiaAlert",
+        "subtitle": "Chia farm statistics bot",
+        "description": "Self-hosted Telegram Chat bot to watch your Chia farm statistics, and got notifications on important events."
+      },
+      "number": "04",
+      "name": "ChiaAlert"
+    },
+    {
+      "year": "2022",
+      "tags": [
+        "iOS",
+        "Swift"
+      ],
+      "info": {
+        "files": [
+          {
+            "file": "2022-01-1.png",
+            "color": "#3a3429"
+          },
+          {
+            "file": "2022-01-2.png",
+            "color": "#3a3429"
+          },
+          {
+            "file": "2022-01-3.png",
+            "color": "#3a3429"
+          }
+        ],
+        "ios": "https://apps.apple.com/ru/app/кушац-qr-меню-и-заказ-блюд/id1572333145",
+        "title": "Kushac",
+        "subtitle": "App Clip based restaurant food ordering",
+        "description": "Great modular architecture, immediate user experience App Clip and SwiftUI.",
+        "highlight": true,
+        "logo": "#ffffff"
+      },
+      "number": "01",
+      "name": "Kushac"
     }
   ]
 }

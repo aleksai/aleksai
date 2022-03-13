@@ -62,7 +62,7 @@ function printPortfolio(data, portfolio, noYear) {
 					' + (!noYear ? '<div class="year">' + work.year + '</div>' : '') + '\
 					<div class="info">\
 						<div class="title">' + work.info.title + '</div>\
-						<div class="subtitle">' + work.info.subtitle + '</div>\
+						<div class="subtitle">' + (work.info && work.info.subtitle ? work.info.subtitle : "No information")+ '</div>\
 						<div class="icons">' + iconsForWork(work) + '</div>\
 					</div>\
 				</a>';

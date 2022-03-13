@@ -379,6 +379,21 @@
         "Server",
         "Web"
       ],
+      "info": {
+        "files": [
+          {
+            "file": "2020-01-1.png",
+            "color": "#EDF1F7"
+          },
+          {
+            "file": "2020-01-2.png",
+            "color": "#EDF1F7"
+          }
+        ],
+        "title": "Аукцион цветов",
+        "subtitle": "Цветочный аукцион голландского типа",
+        "description": "Цветочный аукцион голландского типа для оптовых закупок от производителей."
+      },
       "number": "01",
       "name": "Аукцион цветов"
     },
@@ -388,6 +403,26 @@
         "Swift",
         "iOS"
       ],
+      "info": {
+        "files": [
+          {
+            "file": "2020-02-1.jpg",
+            "color": "#14121C"
+          },
+          {
+            "file": "2020-02-2.jpg",
+            "color": "#14121C"
+          },
+          {
+            "file": "2020-02-3.jpg",
+            "color": "#14121C"
+          }
+        ],
+        "title": "Better",
+        "subtitle": "Приложение для самообучения",
+        "description": "Большой стартап для самообразования, самоконтроля.",
+        "logo": "#14121C"
+      },
       "number": "02",
       "name": "Better"
     },
@@ -399,6 +434,13 @@
         "Server",
         "iOS"
       ],
+      "info": {
+        "url": "https://www.cheflocal.ru/home",
+        "title": "Talentum",
+        "subtitle": "Услуги личного повара",
+        "description": "Профессионал, готовящий специально для вас – это настоящее удовольствие. Но раньше это было сложно и дорого. С Talentum вызвать личного повара так же просто, как заказать такси.",
+        "logo": "#ffffff"
+      },
       "number": "03",
       "name": "Talentum"
     },
@@ -408,6 +450,23 @@
         "Swift",
         "iOS"
       ],
+      "info": {
+        "files": [
+          {
+            "file": "2020-04-1.png",
+            "color": "#ffffff"
+          },
+          {
+            "file": "2020-04-2.png",
+            "color": "#ffffff"
+          }
+        ],
+        "title": "NoteCalc",
+        "subtitle": "Заметки с калькулятором",
+        "description": "Приложение для заметок с калькулятором в комплекте, все что должно быть(математические операции, конвертация валют и мер), автоматически будет посчитано.",
+        "highlight": true,
+        "logo": "#ffffff"
+      },
       "number": "04",
       "name": "NoteCalc"
     },
@@ -417,19 +476,35 @@
         "Swift",
         "iOS"
       ],
+      "info": {
+        "files": [
+          {
+            "file": "2020-05-1.png",
+            "color": "#ffffff"
+          },
+          {
+            "file": "2020-05-2.png",
+            "color": "#ffffff"
+          },
+          {
+            "file": "2020-05-3.png",
+            "color": "#ffffff"
+          },
+          {
+            "file": "2020-05-4.png",
+            "color": "#ffffff"
+          }
+        ],
+        "url": "https://getpocketbook.com",
+        "ios": "https://apps.apple.com/au/app/pocketbook-expense-tracker/id653330894",
+        "title": "Pocketbook",
+        "subtitle": "Budgeting and expense tracker",
+        "description": "Take control of your money with Australia’s most loved personal finance app trusted by more than 800,000 users.",
+        "highlight": true,
+        "logo": "#EF4665"
+      },
       "number": "05",
       "name": "Pocketbook"
-    },
-    {
-      "year": "2020",
-      "tags": [
-        "Node.js",
-        "Server",
-        "Swift",
-        "iOS"
-      ],
-      "number": "06",
-      "name": "Don't drop"
     },
     {
       "year": "2021",
@@ -512,6 +587,58 @@
       },
       "number": "03",
       "name": "Unique"
+    },
+    {
+      "year": "2021",
+      "tags": [
+        "Bot",
+        "Node.js"
+      ],
+      "info": {
+        "files": [
+          {
+            "file": "2021-04-1.png",
+            "color": "#3a3429"
+          }
+        ],
+        "url": "https://github.com/alek-sai/chia-alert",
+        "title": "ChiaAlert",
+        "subtitle": "Telegram-бот для Chia фермы",
+        "description": "Telegram-бот для просмотра статистики вашей фермы Chia и получения уведомлений о важных событиях."
+      },
+      "number": "04",
+      "name": "ChiaAlert"
+    },
+    {
+      "year": "2022",
+      "tags": [
+        "iOS",
+        "Swift"
+      ],
+      "info": {
+        "files": [
+          {
+            "file": "2022-01-1.png",
+            "color": "#3a3429"
+          },
+          {
+            "file": "2022-01-2.png",
+            "color": "#3a3429"
+          },
+          {
+            "file": "2022-01-3.png",
+            "color": "#3a3429"
+          }
+        ],
+        "ios": "https://apps.apple.com/ru/app/кушац-qr-меню-и-заказ-блюд/id1572333145",
+        "title": "Kushac",
+        "subtitle": "Заказ еды в ресторане на основе App Clip",
+        "description": "Отличная модульная архитектура, мгновенный пользовательский интерфейс, App Clip и SwiftUI.",
+        "highlight": true,
+        "logo": "#ffffff"
+      },
+      "number": "01",
+      "name": "Kushac"
     }
   ]
 }
