@@ -30,7 +30,7 @@ module.exports = {
   deploy : {
     staging : {
       user : 'root',
-      host : 'gb.lenyapugachev.com',
+      host : 'aleksai.dev',
       key  : '~/.ssh/id_rsa',
       ref  : 'origin/master',
       repo : 'git@github.com:lenyapugachev/aleksai.git',
@@ -39,7 +39,7 @@ module.exports = {
     },
     production : {
       user : 'root',
-      host : 'gb.lenyapugachev.com',
+      host : 'aleksai.dev',
       key  : '~/.ssh/id_rsa',
       ref  : 'origin/master',
       repo : 'git@github.com:lenyapugachev/aleksai.git',
