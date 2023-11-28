@@ -31,10 +31,12 @@ module.exports = function (app) {
 				icons += '<div class="icon-wrapper"><div title="' + tag + '" class="icon ' + tag.replace(".","-").toLowerCase() + '"></div> <span>' + tag + '</span></div>';
 			}
 
-			for (var i = 0; i < work.info.files.length; i++) {
-				const file = work.info.files[i]
+			if (work.info.files) {
+				for (var i = 0; i < work.info.files.length; i++) {
+					const file = work.info.files[i]
 
-				files += '<a target="_blank" href="/_images/catalog/' + file.file + '"><img class="file" style="background-color: ' + file.color + '" src="/_images/catalog/' + file.file + '" /></a>'
+					files += '<a target="_blank" href="/_images/catalog/' + file.file + '"><img class="file" style="background-color: ' + file.color + '" src="/_images/catalog/' + file.file + '" /></a>'
+				}
 			}
 
 			if(work.info.url) links += '<a target="_blank" href="' + work.info.url + '">' + work.info.url.replace("https://","").replace("http://","") + '</a>'
@@ -68,7 +70,7 @@ module.exports = function (app) {
 							<div class="year">' + additional_work.year + '</div>\
 							<div class="info">\
 								<div class="title">' + additional_work.info.title + '</div>\
-								<div class="subtitle">' + additional_work.info.subtitle + '</div>\
+								<div class="subtitle">' + (additional_work && additional_work.info && additional_work.info.subtitle ? additional_work.info.subtitle : "N/A") + '</div>\
 							</div>\
 						</a>\
 					</div>\
