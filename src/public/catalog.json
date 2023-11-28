@@ -497,10 +497,22 @@
         "Web\n"
       ],
       "info": {
-        "files": []
+        "files": [
+          {
+            "file": "2020-01-1.png",
+            "color": "#4e9be5"
+          },
+          {
+            "file": "2020-01-2.png",
+            "color": "#eff0e7"
+          }
+        ],
+        "title": "Flowers Auction",
+        "subtitle": "Holland-type auction",
+        "description": "Holland-type flowers auction for bulk purchases right from gardeners."
       },
       "number": "01",
-      "name": "Аукцион цветов"
+      "name": "Flowers"
     },
     {
       "year": "2020",
@@ -509,7 +521,24 @@
         "iOS\n"
       ],
       "info": {
-        "files": []
+        "files": [
+          {
+            "file": "2020-02-1.jpg",
+            "color": "#0d0d11"
+          },
+          {
+            "file": "2020-02-2.jpg",
+            "color": "#c99de6"
+          },
+          {
+            "file": "2020-02-3.jpg",
+            "color": "#131318"
+          }
+        ],
+        "title": "Better",
+        "subtitle": "Self-control and education app",
+        "description": "Big startup for self-education, self-control.",
+        "logo": "#a7a0b2"
       },
       "number": "02",
       "name": "Better"
@@ -523,7 +552,12 @@
         "iOS\n"
       ],
       "info": {
-        "files": []
+        "files": [],
+        "url": "https://www.cheflocal.ru/home",
+        "title": "Talentum",
+        "subtitle": "Your private chef service",
+        "description": "A professional cooking especially for you is a real pleasure. But in the past it was difficult and expensive. Calling a personal chef is as easy as ordering a taxi with Talentum.",
+        "logo": "#d3e3d5"
       },
       "number": "03",
       "name": "Talentum"
@@ -535,7 +569,20 @@
         "iOS\n"
       ],
       "info": {
-        "files": []
+        "files": [
+          {
+            "file": "2020-04-1.png",
+            "color": "#dce1e6"
+          },
+          {
+            "file": "2020-04-2.png",
+            "color": "#dddfe4"
+          }
+        ],
+        "title": "NoteCalc",
+        "subtitle": "Notes with calculator",
+        "description": "Notes application with calculator included, everything should be(mathematical operations, currency and measure conversions), will be automatically calculated.",
+        "logo": "#1d1d1d"
       },
       "number": "04",
       "name": "NoteCalc"
@@ -547,7 +594,31 @@
         "iOS\n"
       ],
       "info": {
-        "files": []
+        "files": [
+          {
+            "file": "2020-05-1.png",
+            "color": "#f7f5f4"
+          },
+          {
+            "file": "2020-05-2.png",
+            "color": "#f4efef"
+          },
+          {
+            "file": "2020-05-3.png",
+            "color": "#f3efee"
+          },
+          {
+            "file": "2020-05-4.png",
+            "color": "#f5f2f1"
+          }
+        ],
+        "url": "https://getpocketbook.com",
+        "ios": "https://apps.apple.com/au/app/pocketbook-expense-tracker/id653330894",
+        "title": "Pocketbook",
+        "subtitle": "Budgeting and expense tracker",
+        "description": "Take control of your money with Australia’s most loved personal finance app trusted by more than 800,000 users.",
+        "highlight": true,
+        "logo": "#dc5c74"
       },
       "number": "05",
       "name": "Pocketbook"
@@ -561,7 +632,12 @@
         "iOS\n"
       ],
       "info": {
-        "files": []
+        "files": [],
+        "url": "https://app.minq.cc",
+        "ios": "https://apps.apple.com/us/app/minq-find-an-employee-a-job/id1538744788",
+        "title": "Minq",
+        "subtitle": "Hidden job‪s‬ within your trusted network",
+        "description": "Find great candidates for your hidden job in your trusted network or discover hidden jobs yourself. Post, refer, respond within your circle. 100% privacy-friendly."
       },
       "number": "06",
       "name": "Don't drop"
@@ -586,7 +662,7 @@
         "url": "https://app.minq.cc",
         "ios": "https://apps.apple.com/us/app/minq-find-an-employee-a-job/id1538744788",
         "title": "Minq",
-        "subtitle": "Hidden job‪s‬ within your trusted network",
+        "subtitle": "Hidden jobs within your trusted network",
         "description": "Find great candidates for your hidden job in your trusted network or discover hidden jobs yourself. Post, refer, respond within your circle. 100% privacy-friendly.",
         "logo": "#f5f3e8"
       },
@@ -602,8 +678,16 @@
       "info": {
         "files": [
           {
-            "file": "2021-02-2.png",
-            "color": "#9b3ebc"
+            "file": "2021-02-2021-02-1. iOS 5.5 inch-min.jpg",
+            "color": "#8f05f9"
+          },
+          {
+            "file": "2021-02-2021-02-2. iOS 5.5 inch-min.jpg",
+            "color": "#dbc8d6"
+          },
+          {
+            "file": "2021-02-2021-02-3. iOS 5.5 inch-min.jpg",
+            "color": "#8d06f9"
           }
         ],
         "url": "https://get-bouquet.com",
@@ -641,14 +725,69 @@
       "name": "Unique"
     },
     {
+      "year": "2021",
+      "tags": [
+        "Bot",
+        "Node.js\n"
+      ],
+      "info": {
+        "files": [
+          {
+            "file": "2021-04-1.png",
+            "color": "#1c242c"
+          }
+        ],
+        "url": "https://github.com/alek-sai/chia-alert",
+        "title": "ChiaAlert",
+        "subtitle": "Chia farm statistics bot",
+        "description": "Self-hosted Telegram Chat bot to watch your Chia farm statistics, and got notifications on important events."
+      },
+      "number": "04",
+      "name": "Chia"
+    },
+    {
+      "year": "2022",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": [
+          {
+            "file": "2022-01-1.png",
+            "color": "#25272c"
+          },
+          {
+            "file": "2022-01-2.png",
+            "color": "#aeb8cb"
+          },
+          {
+            "file": "2022-01-3.png",
+            "color": "#c3d2f1"
+          }
+        ],
+        "ios": "https://apps.apple.com/ru/app/кушац-qr-меню-и-заказ-блюд/id1572333145",
+        "title": "Kushac",
+        "subtitle": "App Clip based restaurant food ordering",
+        "description": "Great modular architecture, immediate user experience App Clip and SwiftUI.",
+        "highlight": true,
+        "logo": "#dfe4eb"
+      },
+      "number": "01",
+      "name": "Kushac"
+    },
+    {
       "year": "2022",
       "tags": [
         "Swift\n"
       ],
       "info": {
-        "files": []
+        "files": [],
+        "title": "Screenshot",
+        "subtitle": "Fill me up",
+        "description": "Fill me up"
       },
-      "number": "01",
+      "number": "02",
       "name": "Screenshot"
     },
     {
@@ -658,9 +797,13 @@
         "iOS\n"
       ],
       "info": {
-        "files": []
+        "files": [],
+        "ios": "https://apps.apple.com/tr/app/lit-better-sex-intimacy/id1627082236",
+        "title": "AWKS",
+        "subtitle": "Fill me up",
+        "description": "Fill me up"
       },
-      "number": "02",
+      "number": "03",
       "name": "LIT"
     },
     {
@@ -670,10 +813,14 @@
         "iOS\n"
       ],
       "info": {
-        "files": []
+        "files": [],
+        "ios": "https://apps.apple.com/tr/app/meme-fun-phone-call-by-awks/id6446120234",
+        "title": "AWKS",
+        "subtitle": "Fill me up",
+        "description": "Fill me up"
       },
       "number": "01",
-      "name": "Cringemeter"
+      "name": "AWKS"
     }
   ]
 }

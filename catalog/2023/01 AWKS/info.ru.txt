@@ -1,0 +1,4 @@
+ios: https://apps.apple.com/tr/app/meme-fun-phone-call-by-awks/id6446120234
+title: AWKS
+subtitle: Fill me up
+description: Fill me up

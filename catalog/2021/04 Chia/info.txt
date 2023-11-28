@@ -1,0 +1,4 @@
+url: https://github.com/alek-sai/chia-alert
+title: ChiaAlert
+subtitle: Chia farm statistics bot
+description: Self-hosted Telegram Chat bot to watch your Chia farm statistics, and got notifications on important events.

@@ -1,0 +1,4 @@
+url: https://www.cheflocal.ru/home
+title: Talentum
+subtitle: Your private chef service
+description: A professional cooking especially for you is a real pleasure. But in the past it was difficult and expensive. Calling a personal chef is as easy as ordering a taxi with Talentum.

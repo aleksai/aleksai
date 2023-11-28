@@ -1,0 +1,6 @@
+url: https://getpocketbook.com
+ios: https://apps.apple.com/au/app/pocketbook-expense-tracker/id653330894
+title: Pocketbook
+subtitle: Budgeting and expense tracker
+description: Take control of your money with Australia’s most loved personal finance app trusted by more than 800,000 users.
+highlight: true

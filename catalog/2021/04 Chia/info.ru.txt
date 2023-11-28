@@ -1,0 +1,4 @@
+url: https://github.com/alek-sai/chia-alert
+title: ChiaAlert
+subtitle: Telegram-бот для Chia фермы
+description: Telegram-бот для просмотра статистики вашей фермы Chia и получения уведомлений о важных событиях.

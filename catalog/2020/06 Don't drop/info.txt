@@ -1,5 +1,5 @@
 url: https://app.minq.cc
 ios: https://apps.apple.com/us/app/minq-find-an-employee-a-job/id1538744788
 title: Minq
-subtitle: Hidden jobs within your trusted network
+subtitle: Hidden job‪s‬ within your trusted network
 description: Find great candidates for your hidden job in your trusted network or discover hidden jobs yourself. Post, refer, respond within your circle. 100% privacy-friendly.

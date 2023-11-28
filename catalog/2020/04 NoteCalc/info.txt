@@ -1,0 +1,3 @@
+title: NoteCalc
+subtitle: Notes with calculator
+description: Notes application with calculator included, everything should be(mathematical operations, currency and measure conversions), will be automatically calculated.

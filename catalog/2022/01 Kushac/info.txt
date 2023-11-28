@@ -1,0 +1,5 @@
+ios: https://apps.apple.com/ru/app/кушац-qr-меню-и-заказ-блюд/id1572333145
+title: Kushac
+subtitle: App Clip based restaurant food ordering
+description: Great modular architecture, immediate user experience App Clip and SwiftUI.
+highlight: true

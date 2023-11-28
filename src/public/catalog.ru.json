@@ -497,10 +497,22 @@
         "Web\n"
       ],
       "info": {
-        "files": []
+        "files": [
+          {
+            "file": "2020-01-1.png",
+            "color": "#4e9be5"
+          },
+          {
+            "file": "2020-01-2.png",
+            "color": "#eff0e7"
+          }
+        ],
+        "title": "Аукцион цветов",
+        "subtitle": "Цветочный аукцион голландского типа",
+        "description": "Цветочный аукцион голландского типа для оптовых закупок от производителей."
       },
       "number": "01",
-      "name": "Аукцион цветов"
+      "name": "Flowers"
     },
     {
       "year": "2020",
@@ -509,7 +521,24 @@
         "iOS\n"
       ],
       "info": {
-        "files": []
+        "files": [
+          {
+            "file": "2020-02-1.jpg",
+            "color": "#0d0d11"
+          },
+          {
+            "file": "2020-02-2.jpg",
+            "color": "#c99de6"
+          },
+          {
+            "file": "2020-02-3.jpg",
+            "color": "#131318"
+          }
+        ],
+        "title": "Better",
+        "subtitle": "Приложение для самообучения",
+        "description": "Большой стартап для самообразования, самоконтроля.",
+        "logo": "#a7a0b2"
       },
       "number": "02",
       "name": "Better"
@@ -523,7 +552,12 @@
         "iOS\n"
       ],
       "info": {
-        "files": []
+        "files": [],
+        "url": "https://www.cheflocal.ru/home",
+        "title": "Talentum",
+        "subtitle": "Услуги личного повара",
+        "description": "Профессионал, готовящий специально для вас – это настоящее удовольствие. Но раньше это было сложно и дорого. С Talentum вызвать личного повара так же просто, как заказать такси.",
+        "logo": "#d3e3d5"
       },
       "number": "03",
       "name": "Talentum"
@@ -535,7 +569,20 @@
         "iOS\n"
       ],
       "info": {
-        "files": []
+        "files": [
+          {
+            "file": "2020-04-1.png",
+            "color": "#dce1e6"
+          },
+          {
+            "file": "2020-04-2.png",
+            "color": "#dddfe4"
+          }
+        ],
+        "title": "NoteCalc",
+        "subtitle": "Заметки с калькулятором",
+        "description": "Приложение для заметок с калькулятором в комплекте, все что должно быть(математические операции, конвертация валют и мер), автоматически будет посчитано.",
+        "logo": "#1d1d1d"
       },
       "number": "04",
       "name": "NoteCalc"
@@ -547,7 +594,31 @@
         "iOS\n"
       ],
       "info": {
-        "files": []
+        "files": [
+          {
+            "file": "2020-05-1.png",
+            "color": "#f7f5f4"
+          },
+          {
+            "file": "2020-05-2.png",
+            "color": "#f4efef"
+          },
+          {
+            "file": "2020-05-3.png",
+            "color": "#f3efee"
+          },
+          {
+            "file": "2020-05-4.png",
+            "color": "#f5f2f1"
+          }
+        ],
+        "url": "https://getpocketbook.com",
+        "ios": "https://apps.apple.com/au/app/pocketbook-expense-tracker/id653330894",
+        "title": "Pocketbook",
+        "subtitle": "Budgeting and expense tracker",
+        "description": "Take control of your money with Australia’s most loved personal finance app trusted by more than 800,000 users.",
+        "highlight": true,
+        "logo": "#dc5c74"
       },
       "number": "05",
       "name": "Pocketbook"
@@ -561,7 +632,12 @@
         "iOS\n"
       ],
       "info": {
-        "files": []
+        "files": [],
+        "url": "https://app.minq.cc",
+        "ios": "https://apps.apple.com/us/app/minq-find-an-employee-a-job/id1538744788",
+        "title": "Minq",
+        "subtitle": "Сервис по поиску работы вокруг тебя",
+        "description": "Сервис строится вокруг твоих контактов и их контактов, оперируя обезличенными данными сервис позволяет делиться и находить вакансии в нескольких или даже одном рукопожатии."
       },
       "number": "06",
       "name": "Don't drop"
@@ -602,8 +678,16 @@
       "info": {
         "files": [
           {
-            "file": "2021-02-2.png",
-            "color": "#9b3ebc"
+            "file": "2021-02-2021-02-1. iOS 5.5 inch-min.jpg",
+            "color": "#8f05f9"
+          },
+          {
+            "file": "2021-02-2021-02-2. iOS 5.5 inch-min.jpg",
+            "color": "#dbc8d6"
+          },
+          {
+            "file": "2021-02-2021-02-3. iOS 5.5 inch-min.jpg",
+            "color": "#8d06f9"
           }
         ],
         "url": "https://get-bouquet.com",
@@ -641,14 +725,69 @@
       "name": "Unique"
     },
     {
+      "year": "2021",
+      "tags": [
+        "Bot",
+        "Node.js\n"
+      ],
+      "info": {
+        "files": [
+          {
+            "file": "2021-04-1.png",
+            "color": "#1c242c"
+          }
+        ],
+        "url": "https://github.com/alek-sai/chia-alert",
+        "title": "ChiaAlert",
+        "subtitle": "Telegram-бот для Chia фермы",
+        "description": "Telegram-бот для просмотра статистики вашей фермы Chia и получения уведомлений о важных событиях."
+      },
+      "number": "04",
+      "name": "Chia"
+    },
+    {
+      "year": "2022",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": [
+          {
+            "file": "2022-01-1.png",
+            "color": "#25272c"
+          },
+          {
+            "file": "2022-01-2.png",
+            "color": "#aeb8cb"
+          },
+          {
+            "file": "2022-01-3.png",
+            "color": "#c3d2f1"
+          }
+        ],
+        "ios": "https://apps.apple.com/ru/app/кушац-qr-меню-и-заказ-блюд/id1572333145",
+        "title": "Кушац",
+        "subtitle": "Заказ еды в ресторане на основе App Clip",
+        "description": "Отличная модульная архитектура, мгновенный пользовательский интерфейс, App Clip и SwiftUI.",
+        "highlight": true,
+        "logo": "#dfe4eb"
+      },
+      "number": "01",
+      "name": "Kushac"
+    },
+    {
       "year": "2022",
       "tags": [
         "Swift\n"
       ],
       "info": {
-        "files": []
+        "files": [],
+        "title": "Screenshot",
+        "subtitle": "Fill me up",
+        "description": "Fill me up"
       },
-      "number": "01",
+      "number": "02",
       "name": "Screenshot"
     },
     {
@@ -658,9 +797,13 @@
         "iOS\n"
       ],
       "info": {
-        "files": []
+        "files": [],
+        "ios": "https://apps.apple.com/tr/app/lit-better-sex-intimacy/id1627082236",
+        "title": "LIT",
+        "subtitle": "Fill me up",
+        "description": "Fill me up"
       },
-      "number": "02",
+      "number": "03",
       "name": "LIT"
     },
     {
@@ -670,10 +813,14 @@
         "iOS\n"
       ],
       "info": {
-        "files": []
+        "files": [],
+        "ios": "https://apps.apple.com/tr/app/meme-fun-phone-call-by-awks/id6446120234",
+        "title": "AWKS",
+        "subtitle": "Fill me up",
+        "description": "Fill me up"
       },
       "number": "01",
-      "name": "Cringemeter"
+      "name": "AWKS"
     }
   ]
 }
