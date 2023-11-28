@@ -1,0 +1,8 @@
+FROM --platform=linux/amd64 node:18
+RUN apt-get update
+RUN apt-get install -y build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev libimagequant-dev
+RUN npm install -g canvas@2.11.2 --build-from-source
+RUN mkdir -p /var/www/html
+WORKDIR /var/www/html
+COPY package*.json ./
+RUN npm install --save-dev

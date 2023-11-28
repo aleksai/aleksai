@@ -1,0 +1,4 @@
+url: https://nft-art.live
+title: Unique
+subtitle: NFT lazy auction
+description: "Laziest" minting auction system on-Ethereum-blockchain. Using modified ERC-1155 protocol.

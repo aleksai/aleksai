@@ -1,3 +1,1 @@
-node_modules/
-/catalog/
-/dist/config.*.js
+/src/config.*.js

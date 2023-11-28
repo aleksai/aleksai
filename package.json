@@ -1,25 +1,24 @@
 {
   "name": "ALEKSAI",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Personal web-site",
-  "main": "dist/index.js",
+  "main": "src/index",
   "scripts": {
-    "dev": "nodemon .",
-    "scan": "node dist/scanner.js",
-    "deploy": "pm2 deploy staging",
+    "start": "./node_modules/.bin/nodemon .",
+    "scan": "node src/scanner",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lenya Pugachev <lenyapugachev@me.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "pm2": "^4.5.5",
-    "telegram-bot-api": "^2.0.1"
+    "telegram-bot-api": "^2.0.1",
+    "nodemon": "^3.0.1"
   },
   "devDependencies": {
-    "color-thief": "^2.2.5",
-    "compress-images": "^1.9.8",
-    "gifsicle": "^5.2.0",
-    "pngquant-bin": "^6.0.0"
+    "colorthief": "^2.4.0",
+    "compress-images": "^2.0.4",
+    "gifsicle": "^5.2.1",
+    "pngquant-bin": "^6.0.1"
   }
 }

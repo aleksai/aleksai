@@ -1,0 +1,6 @@
+url: https://get-bouquet.com
+android: https://play.google.com/store/apps/details?id=ru.getbouquet
+title: Get Bouquet
+subtitle: Flowers delivery
+description: Back-end for flower bouquets delivery service. Android, iOS app and Web-version powered by Node.js back-end API and nice management system (Web and Telegram bot).
+highlight: true

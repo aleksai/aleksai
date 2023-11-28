@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  aleksai:
+    image: aleksai
+    restart: on-failure
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3010:3010"
+    volumes:
+      - ./src:/var/www/html/src
+    command: npm run start

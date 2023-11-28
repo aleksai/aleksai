@@ -1,0 +1,679 @@
+{
+  "works": [
+    {
+      "year": "2013",
+      "tags": [
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "00",
+      "name": "Privetbureau"
+    },
+    {
+      "year": "2013",
+      "tags": [
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "01",
+      "name": "MrCable"
+    },
+    {
+      "year": "2013",
+      "tags": [
+        "PHP",
+        "Server",
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "02",
+      "name": "Fripl"
+    },
+    {
+      "year": "2013",
+      "tags": [
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "03",
+      "name": "Chasing The Sun"
+    },
+    {
+      "year": "2013",
+      "tags": [
+        "PHP",
+        "Server",
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "04",
+      "name": "Geo"
+    },
+    {
+      "year": "2014",
+      "tags": [
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "01",
+      "name": "Realfie"
+    },
+    {
+      "year": "2014",
+      "tags": [
+        "Android",
+        "React",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "02",
+      "name": "Gustav & Gustav"
+    },
+    {
+      "year": "2014",
+      "tags": [
+        "PHP",
+        "Server",
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "03",
+      "name": "Япона-мама"
+    },
+    {
+      "year": "2014",
+      "tags": [
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "04",
+      "name": "Фиксики"
+    },
+    {
+      "year": "2014",
+      "tags": [
+        "PHP",
+        "Server",
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "05",
+      "name": "SRS"
+    },
+    {
+      "year": "2014",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "06",
+      "name": "Heart"
+    },
+    {
+      "year": "2014",
+      "tags": [
+        "PHP",
+        "Server",
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "07",
+      "name": "Four Projects"
+    },
+    {
+      "year": "2015",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "01",
+      "name": "Mojo"
+    },
+    {
+      "year": "2015",
+      "tags": [
+        "Server",
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "02",
+      "name": "MASS"
+    },
+    {
+      "year": "2015",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "03",
+      "name": "SmartSky"
+    },
+    {
+      "year": "2015",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "04",
+      "name": "Rolly"
+    },
+    {
+      "year": "2015",
+      "tags": [
+        "PHP",
+        "Server",
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "05",
+      "name": "Rodina.ru"
+    },
+    {
+      "year": "2016",
+      "tags": [
+        "PHP",
+        "Server",
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "01",
+      "name": "Клуб Конкурентов"
+    },
+    {
+      "year": "2016",
+      "tags": [
+        "Server",
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "02",
+      "name": "Dozari"
+    },
+    {
+      "year": "2016",
+      "tags": [
+        "Bot",
+        "PHP\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "03",
+      "name": "Эхо"
+    },
+    {
+      "year": "2016",
+      "tags": [
+        "Server",
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "04",
+      "name": "MotoSpace"
+    },
+    {
+      "year": "2016",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "05",
+      "name": "Little Hero"
+    },
+    {
+      "year": "2017",
+      "tags": [
+        "PHP",
+        "Server",
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "01",
+      "name": "Playboy Vietnam"
+    },
+    {
+      "year": "2017",
+      "tags": [
+        "Bot",
+        "Node.js\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "02",
+      "name": "Sursum"
+    },
+    {
+      "year": "2017",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "03",
+      "name": "KBSE Taxi"
+    },
+    {
+      "year": "2017",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "04",
+      "name": "KitTravel"
+    },
+    {
+      "year": "2017",
+      "tags": [
+        "Node.js",
+        "PHP",
+        "Server",
+        "Swift",
+        "Web",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "05",
+      "name": "Talk&Touch"
+    },
+    {
+      "year": "2018",
+      "tags": [
+        "PHP",
+        "Server",
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "01",
+      "name": "Две столицы"
+    },
+    {
+      "year": "2018",
+      "tags": [
+        "PHP",
+        "Server",
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "02",
+      "name": "Ростех Опросы"
+    },
+    {
+      "year": "2018",
+      "tags": [
+        "Node.js",
+        "Server\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "03",
+      "name": "Шпилли-вилли"
+    },
+    {
+      "year": "2018",
+      "tags": [
+        "Node.js",
+        "PHP",
+        "Server",
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "04",
+      "name": "Feeler"
+    },
+    {
+      "year": "2018",
+      "tags": [
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "05",
+      "name": "Газпром"
+    },
+    {
+      "year": "2019",
+      "tags": [
+        "PHP",
+        "Server",
+        "Swift",
+        "Web",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "01",
+      "name": "InCompany"
+    },
+    {
+      "year": "2019",
+      "tags": [
+        "PHP",
+        "React",
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "02",
+      "name": "Сбер Рассылки"
+    },
+    {
+      "year": "2019",
+      "tags": [
+        "Bot",
+        "Node.js\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "03",
+      "name": "TCA"
+    },
+    {
+      "year": "2019",
+      "tags": [
+        "Node.js",
+        "Server\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "04",
+      "name": "DonAmper"
+    },
+    {
+      "year": "2019",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "05",
+      "name": "QTickets"
+    },
+    {
+      "year": "2019",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "06",
+      "name": "ViDo"
+    },
+    {
+      "year": "2019",
+      "tags": [
+        "Node.js",
+        "Server",
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "07",
+      "name": "Шеф-Локал"
+    },
+    {
+      "year": "2020",
+      "tags": [
+        "Node.js",
+        "PHP",
+        "Server",
+        "Web\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "01",
+      "name": "Аукцион цветов"
+    },
+    {
+      "year": "2020",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "02",
+      "name": "Better"
+    },
+    {
+      "year": "2020",
+      "tags": [
+        "Node.js",
+        "React",
+        "Server",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "03",
+      "name": "Talentum"
+    },
+    {
+      "year": "2020",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "04",
+      "name": "NoteCalc"
+    },
+    {
+      "year": "2020",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "05",
+      "name": "Pocketbook"
+    },
+    {
+      "year": "2020",
+      "tags": [
+        "Node.js",
+        "Server",
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "06",
+      "name": "Don't drop"
+    },
+    {
+      "year": "2021",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": [
+          {
+            "file": "2021-01-1.jpg",
+            "color": "#386275"
+          },
+          {
+            "file": "2021-01-4.jpg",
+            "color": "#ededed"
+          }
+        ],
+        "url": "https://app.minq.cc",
+        "ios": "https://apps.apple.com/us/app/minq-find-an-employee-a-job/id1538744788",
+        "title": "Minq",
+        "subtitle": "Сервис по поиску работы вокруг тебя",
+        "description": "Сервис строится вокруг твоих контактов и их контактов, оперируя обезличенными данными сервис позволяет делиться и находить вакансии в нескольких или даже одном рукопожатии.",
+        "logo": "#f5f3e8"
+      },
+      "number": "01",
+      "name": "Minq"
+    },
+    {
+      "year": "2021",
+      "tags": [
+        "Node.js",
+        "Server\n"
+      ],
+      "info": {
+        "files": [
+          {
+            "file": "2021-02-2.png",
+            "color": "#9b3ebc"
+          }
+        ],
+        "url": "https://get-bouquet.com",
+        "android": "https://play.google.com/store/apps/details?id=ru.getbouquet",
+        "title": "Гет Букет",
+        "subtitle": "Доставка цветов",
+        "description": "Бэк-энд для цветочного сервиса. Android, iOS and Web-версия работают с Node.js API. Для проекта также реализована уникальная система управления Web и Telegram бот для сборщиков и доставщиков.",
+        "highlight": true,
+        "logo": "#6c24f3"
+      },
+      "number": "02",
+      "name": "GetBouquet"
+    },
+    {
+      "year": "2021",
+      "tags": [
+        "Node.js",
+        "Server",
+        "Solidity",
+        "Web\n"
+      ],
+      "info": {
+        "files": [
+          {
+            "file": "2021-03-1.png",
+            "color": "#3a3429"
+          }
+        ],
+        "url": "https://nft-art.live",
+        "title": "Unique",
+        "subtitle": "Ленивый NFT-аукцион",
+        "description": "Концепция полностью ленивого NFT-аукциона. Ты можешь выложить работы с нулевым балансом кошелька и получить деньги в случае покупки твоей работы. Контракт основан на ERC-1155."
+      },
+      "number": "03",
+      "name": "Unique"
+    },
+    {
+      "year": "2022",
+      "tags": [
+        "Swift\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "01",
+      "name": "Screenshot"
+    },
+    {
+      "year": "2022",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "02",
+      "name": "LIT"
+    },
+    {
+      "year": "2023",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": []
+      },
+      "number": "01",
+      "name": "Cringemeter"
+    }
+  ]
+}
