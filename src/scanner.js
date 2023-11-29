@@ -93,6 +93,7 @@ async function scan() {
 
 									const logo_file = work_folder + "/logo.png"
 
+									console.log(info);
 									if(fs.existsSync(logo_file)) {
 										info.logo = rgbToHex(await ColorThief.getColor(logo_file))
 										

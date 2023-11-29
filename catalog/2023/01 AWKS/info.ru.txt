@@ -1,4 +1,5 @@
 ios: https://apps.apple.com/tr/app/meme-fun-phone-call-by-awks/id6446120234
 title: AWKS
-subtitle: Fill me up
-description: Fill me up
+subtitle: Игра
+description: Проведите веселое время, играя в AWKS по FaceTime с лучшими друзьями. Вытяните карту и расскажите свои самые смешные и неловкие истории, пока не закончится время.
+highlight: true

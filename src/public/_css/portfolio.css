@@ -21,6 +21,10 @@
 	text-decoration: none;
 }
 
+#portfolio .work.disabled {
+	pointer-events: none!important;
+}
+
 #portfolio .work.highlighted {
 	display: block;
 

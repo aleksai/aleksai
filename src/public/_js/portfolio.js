@@ -52,9 +52,9 @@ function printPortfolio(data, portfolio, noYear) {
 
 		// if(highlighted.includes(work)) continue;
 
-		if(!work.info) work.info = { title: work.name };
+		if(!work.info || Object.keys(work.info).length === 1) work.info = { title: work.name };
 
-		html += '<a class="work" href="' + (window.location.pathname.substr(0,3) === '/ru' ? '/ru/portfolio/' : '/portfolio/') + work.year + '-' + work.number + '-' + work.name + '">\
+		html += '<a class="work' + (Object.keys(work.info).length === 1 ? ' disabled' : '') + '" href="' + (window.location.pathname.substr(0,3) === '/ru' ? '/ru/portfolio/' : '/portfolio/') + work.year + '-' + work.number + '-' + work.name + '">\
 					<div class="logo">\
 						<div class="bg" style="background-color: ' + work.info.logo + '; background-image: url(/_images/catalog/' + work.year + '-' + work.number + '-logo.png)"></div>\
 						<div class="number" style="color: ' + (work.info.logo ? 'transparent' : 'black') + '">' + work.number + '</div>\

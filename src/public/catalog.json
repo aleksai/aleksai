@@ -195,19 +195,6 @@
       "name": "Rolly"
     },
     {
-      "year": "2015",
-      "tags": [
-        "PHP",
-        "Server",
-        "Web\n"
-      ],
-      "info": {
-        "files": []
-      },
-      "number": "05",
-      "name": "Rodina.ru"
-    },
-    {
       "year": "2016",
       "tags": [
         "PHP",
@@ -359,7 +346,7 @@
         "files": []
       },
       "number": "02",
-      "name": "Ростех Опросы"
+      "name": "Опросы"
     },
     {
       "year": "2018",
@@ -389,17 +376,6 @@
       "name": "Feeler"
     },
     {
-      "year": "2018",
-      "tags": [
-        "Web\n"
-      ],
-      "info": {
-        "files": []
-      },
-      "number": "05",
-      "name": "Газпром"
-    },
-    {
       "year": "2019",
       "tags": [
         "PHP",
@@ -417,15 +393,15 @@
     {
       "year": "2019",
       "tags": [
-        "PHP",
-        "React",
+        "Node.js",
+        "Server",
         "Web\n"
       ],
       "info": {
         "files": []
       },
       "number": "02",
-      "name": "Сбер Рассылки"
+      "name": "Шеф-Локал"
     },
     {
       "year": "2019",
@@ -474,19 +450,6 @@
       },
       "number": "06",
       "name": "ViDo"
-    },
-    {
-      "year": "2019",
-      "tags": [
-        "Node.js",
-        "Server",
-        "Web\n"
-      ],
-      "info": {
-        "files": []
-      },
-      "number": "07",
-      "name": "Шеф-Локал"
     },
     {
       "year": "2020",
@@ -712,6 +675,10 @@
       "info": {
         "files": [
           {
+            "file": "2021-03-0.png",
+            "color": "#355721"
+          },
+          {
             "file": "2021-03-1.png",
             "color": "#3a3429"
           }
@@ -782,10 +749,15 @@
         "Swift\n"
       ],
       "info": {
-        "files": [],
+        "files": [
+          {
+            "file": "2022-02-Screenshot 2023-11-29 at 5.52.38 PM.png",
+            "color": "#c2c1c0"
+          }
+        ],
         "title": "Screenshot",
-        "subtitle": "Fill me up",
-        "description": "Fill me up"
+        "subtitle": "Ultimate screenshot tool for Mac OS",
+        "description": "Capture, annotate, and share effortlessly with Screenshot, the go-to screenshot app for Mac OS. With powerful editing tools, add annotations, highlights, and more to convey your message effectively."
       },
       "number": "02",
       "name": "Screenshot"
@@ -797,11 +769,30 @@
         "iOS\n"
       ],
       "info": {
-        "files": [],
+        "files": [
+          {
+            "file": "2022-03-1.png",
+            "color": "#270735"
+          },
+          {
+            "file": "2022-03-2.png",
+            "color": "#ca3a9c"
+          },
+          {
+            "file": "2022-03-3.png",
+            "color": "#240833"
+          },
+          {
+            "file": "2022-03-4.png",
+            "color": "#33063b"
+          }
+        ],
         "ios": "https://apps.apple.com/tr/app/lit-better-sex-intimacy/id1627082236",
         "title": "LIT",
-        "subtitle": "Fill me up",
-        "description": "Fill me up"
+        "subtitle": "Apple Watch sex tracker",
+        "description": "LIT App is a sex tracker that could bring you a more fulfilling and rich intimate life.",
+        "highlight": true,
+        "logo": "#130424"
       },
       "number": "03",
       "name": "LIT"
@@ -813,11 +804,30 @@
         "iOS\n"
       ],
       "info": {
-        "files": [],
+        "files": [
+          {
+            "file": "2023-01-1.png",
+            "color": "#e17e7a"
+          },
+          {
+            "file": "2023-01-2.png",
+            "color": "#a58ee7"
+          },
+          {
+            "file": "2023-01-3.png",
+            "color": "#a185f1"
+          },
+          {
+            "file": "2023-01-4.png",
+            "color": "#88b9f6"
+          }
+        ],
         "ios": "https://apps.apple.com/tr/app/meme-fun-phone-call-by-awks/id6446120234",
         "title": "AWKS",
-        "subtitle": "Fill me up",
-        "description": "Fill me up"
+        "subtitle": "A FaceTime game",
+        "description": "Have the most fun playing AWKS on FaceTime with besties! Draw a card & let’s hear your best cringe-worthy stories before the time is up. Extra bonus:cards with cringey fitness exercises!",
+        "highlight": true,
+        "logo": "#7e66dc"
       },
       "number": "01",
       "name": "AWKS"
