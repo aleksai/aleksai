@@ -10,23 +10,25 @@
     "2020",
     "2021",
     "2022",
-    "2023"
+    "2023",
+    "2024"
   ],
   "tags": [
-    "Web\n",
+    "Web",
     "PHP",
     "Server",
     "Android",
     "React",
-    "iOS\n",
+    "iOS",
     "Swift",
     "Bot",
-    "PHP\n",
-    "Node.js\n",
+    "PHP",
     "Node.js",
     "Web",
-    "Server\n",
+    "Server",
     "Solidity",
-    "Swift\n"
+    "Swift",
+    "C",
+    "visionOS"
   ]
 }
