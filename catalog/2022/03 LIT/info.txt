@@ -1,4 +1,4 @@
-ios: https://apps.apple.com/tr/app/lit-better-sex-intimacy/id1627082236
+ios: https://apps.apple.com/us/app/lit-better-sex-intimacy/id1627082236
 title: LIT
 subtitle: Apple Watch sex tracker
 description: LIT App is a sex tracker that could bring you a more fulfilling and rich intimate life.

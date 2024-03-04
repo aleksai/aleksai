@@ -1,0 +1,3 @@
+title: ARKA
+subtitle: DIY AI-assistant platform
+description: Platform for developing your own voice assistants based on GPT-4 and Raspberry Pico W.

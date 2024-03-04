@@ -1,4 +1,4 @@
-ios: https://apps.apple.com/tr/app/meme-fun-phone-call-by-awks/id6446120234
+ios: https://apps.apple.com/us/app/meme-fun-phone-call-by-awks/id6446120234
 title: AWKS
 subtitle: A FaceTime game
 description: Have the most fun playing AWKS on FaceTime with besties! Draw a card & let’s hear your best cringe-worthy stories before the time is up. Extra bonus: cards with cringey fitness exercises!

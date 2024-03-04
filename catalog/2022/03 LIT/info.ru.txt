@@ -1,4 +1,4 @@
-ios: https://apps.apple.com/tr/app/lit-better-sex-intimacy/id1627082236
+ios: https://apps.apple.com/us/app/lit-better-sex-intimacy/id1627082236
 title: LIT
 subtitle: Секс-трекер на Apple Watch
 description: Приложение LIT — это секс-трекер, который может сделать вашу интимную жизнь более полноценной и насыщенной.

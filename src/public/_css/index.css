@@ -166,6 +166,14 @@ canvas {
 	background-image: url(/_images/ios.png);
 }
 
+.icons .icon.c {
+	background-image: url(/_images/c.png);
+}
+
+.icons .icon.visionos {
+	background-image: url(/_images/visionos.png);
+}
+
 .icons .icon.android {
 	background-image: url(/_images/android.png);
 }

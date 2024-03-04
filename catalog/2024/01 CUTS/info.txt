@@ -1,0 +1,5 @@
+ios: https://apps.apple.com/us/app/cuts-for-vision-pro/id6478470622
+title: Cuts for Vision Pro
+subtitle: Video Editing App
+description: With Cuts for Apple Vision Pro, you can easily edit your videos and make them more engaging and memorable. You can: mark up, cut, and export your videos in any way you want, also add memo to each cut to remind yourself of the purpose or idea behind it, import and export your videos from Photos library and iCloud Drive.
+highlight: true
