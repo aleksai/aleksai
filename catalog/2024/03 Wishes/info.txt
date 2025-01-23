@@ -1,0 +1,5 @@
+ios: https://apps.apple.com/us/app/wishlist-maker-wishes/id6479377591
+title: Wishes app
+subtitle: Wishlist maker
+description: Collect and organize your wishes with a unique experience and no sign-ups. Easily share your wishlists with anyone on any platform.
+highlight: true

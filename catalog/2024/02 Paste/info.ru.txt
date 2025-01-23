@@ -1,0 +1,5 @@
+ios: https://apps.apple.com/us/app/paste-endless-clipboard/id967805235
+title: Paste
+subtitle: Менеджер буфера обмена
+description: Paste — это новый способ сохранения, поиска и организации всего, что вы копируете на Mac, iPhone и iPad.
+highlight: true

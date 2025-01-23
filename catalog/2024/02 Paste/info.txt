@@ -1,0 +1,5 @@
+ios: https://apps.apple.com/us/app/paste-endless-clipboard/id967805235
+title: Paste app
+subtitle: Clipboard manager
+description: Paste is a new way to keep, search, and organize everything you copy on your Mac, iPhone, and iPad.
+highlight: true

@@ -1,0 +1,5 @@
+ios: https://apps.apple.com/us/app/wishlist-maker-wishes/id6479377591
+title: Wishes
+subtitle: Вишлист-органайзер
+description: Собирайте и организуйте свои желания с уникальным опытом и без регистрации. Легко делитесь своими списками желаний с кем угодно на любой платформе.
+highlight: true
