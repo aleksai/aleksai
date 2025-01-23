@@ -3,7 +3,7 @@
     {
       "year": "2013",
       "tags": [
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": []
@@ -14,7 +14,7 @@
     {
       "year": "2013",
       "tags": [
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": []
@@ -27,7 +27,7 @@
       "tags": [
         "PHP",
         "Server",
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": []
@@ -38,7 +38,7 @@
     {
       "year": "2013",
       "tags": [
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": []
@@ -51,7 +51,7 @@
       "tags": [
         "PHP",
         "Server",
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": []
@@ -62,7 +62,7 @@
     {
       "year": "2014",
       "tags": [
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": []
@@ -75,7 +75,7 @@
       "tags": [
         "Android",
         "React",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -88,7 +88,7 @@
       "tags": [
         "PHP",
         "Server",
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": []
@@ -99,7 +99,7 @@
     {
       "year": "2014",
       "tags": [
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": []
@@ -112,7 +112,7 @@
       "tags": [
         "PHP",
         "Server",
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": []
@@ -124,7 +124,7 @@
       "year": "2014",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -137,7 +137,7 @@
       "tags": [
         "PHP",
         "Server",
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": []
@@ -149,7 +149,7 @@
       "year": "2015",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -162,7 +162,7 @@
       "tags": [
         "Server",
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -174,7 +174,7 @@
       "year": "2015",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -186,7 +186,7 @@
       "year": "2015",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -199,7 +199,7 @@
       "tags": [
         "PHP",
         "Server",
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": []
@@ -212,7 +212,7 @@
       "tags": [
         "Server",
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -224,7 +224,7 @@
       "year": "2016",
       "tags": [
         "Bot",
-        "PHP"
+        "PHP\n"
       ],
       "info": {
         "files": []
@@ -237,7 +237,7 @@
       "tags": [
         "Server",
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -249,7 +249,7 @@
       "year": "2016",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -262,7 +262,7 @@
       "tags": [
         "PHP",
         "Server",
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": []
@@ -274,7 +274,7 @@
       "year": "2017",
       "tags": [
         "Bot",
-        "Node.js"
+        "Node.js\n"
       ],
       "info": {
         "files": []
@@ -286,7 +286,7 @@
       "year": "2017",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -298,7 +298,7 @@
       "year": "2017",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -314,7 +314,7 @@
         "Server",
         "Swift",
         "Web",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -327,7 +327,7 @@
       "tags": [
         "PHP",
         "Server",
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": []
@@ -340,7 +340,7 @@
       "tags": [
         "PHP",
         "Server",
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": []
@@ -352,7 +352,7 @@
       "year": "2018",
       "tags": [
         "Node.js",
-        "Server"
+        "Server\n"
       ],
       "info": {
         "files": []
@@ -367,7 +367,7 @@
         "PHP",
         "Server",
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -382,7 +382,7 @@
         "Server",
         "Swift",
         "Web",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -395,7 +395,7 @@
       "tags": [
         "Node.js",
         "Server",
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": []
@@ -407,7 +407,7 @@
       "year": "2019",
       "tags": [
         "Bot",
-        "Node.js"
+        "Node.js\n"
       ],
       "info": {
         "files": []
@@ -419,7 +419,7 @@
       "year": "2019",
       "tags": [
         "Node.js",
-        "Server"
+        "Server\n"
       ],
       "info": {
         "files": []
@@ -431,7 +431,7 @@
       "year": "2019",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -443,7 +443,7 @@
       "year": "2019",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": []
@@ -457,17 +457,17 @@
         "Node.js",
         "PHP",
         "Server",
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": [
           {
             "file": "2020-01-1.png",
-            "color": "#4e9be5"
+            "color": "#1b9cea"
           },
           {
             "file": "2020-01-2.png",
-            "color": "#eff0e7"
+            "color": "#189cf3"
           }
         ],
         "title": "Аукцион цветов",
@@ -481,7 +481,7 @@
       "year": "2020",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": [
@@ -491,17 +491,17 @@
           },
           {
             "file": "2020-02-2.jpg",
-            "color": "#c99de6"
+            "color": "#c89ee6"
           },
           {
             "file": "2020-02-3.jpg",
-            "color": "#131318"
+            "color": "#131319"
           }
         ],
         "title": "Better",
         "subtitle": "Приложение для самообучения",
         "description": "Большой стартап для самообразования, самоконтроля.",
-        "logo": "#a7a0b2"
+        "logo": "#a79eb2"
       },
       "number": "02",
       "name": "Better"
@@ -512,7 +512,7 @@
         "Node.js",
         "React",
         "Server",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": [],
@@ -520,7 +520,7 @@
         "title": "Talentum",
         "subtitle": "Услуги личного повара",
         "description": "Профессионал, готовящий специально для вас – это настоящее удовольствие. Но раньше это было сложно и дорого. С Talentum вызвать личного повара так же просто, как заказать такси.",
-        "logo": "#d3e3d5"
+        "logo": "#0c8b36"
       },
       "number": "03",
       "name": "Talentum"
@@ -529,13 +529,13 @@
       "year": "2020",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": [
           {
             "file": "2020-04-1.png",
-            "color": "#dce1e6"
+            "color": "#dee4e8"
           },
           {
             "file": "2020-04-2.png",
@@ -554,7 +554,7 @@
       "year": "2020",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": [
@@ -581,7 +581,7 @@
         "subtitle": "Планирование бюджета и учет расходов",
         "description": "Управляйте своими финансами с помощью самого популярного в Австралии приложения по личным финансам, которому доверяют более 800 000 пользователей.",
         "highlight": true,
-        "logo": "#dc5c74"
+        "logo": "#f25374"
       },
       "number": "05",
       "name": "Pocketbook"
@@ -592,7 +592,7 @@
         "Node.js",
         "Server",
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": [],
@@ -609,17 +609,17 @@
       "year": "2021",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": [
           {
             "file": "2021-01-1.jpg",
-            "color": "#386275"
+            "color": "#1f6778"
           },
           {
             "file": "2021-01-4.jpg",
-            "color": "#ededed"
+            "color": "#edeeee"
           }
         ],
         "url": "https://app.minq.cc",
@@ -627,7 +627,7 @@
         "title": "Minq",
         "subtitle": "Сервис по поиску работы вокруг тебя",
         "description": "Сервис строится вокруг твоих контактов и их контактов, оперируя обезличенными данными сервис позволяет делиться и находить вакансии в нескольких или даже одном рукопожатии.",
-        "logo": "#f5f3e8"
+        "logo": "#fccc3c"
       },
       "number": "01",
       "name": "Minq"
@@ -636,7 +636,7 @@
       "year": "2021",
       "tags": [
         "Node.js",
-        "Server"
+        "Server\n"
       ],
       "info": {
         "files": [
@@ -646,11 +646,11 @@
           },
           {
             "file": "2021-02-2021-02-2. iOS 5.5 inch-min.jpg",
-            "color": "#dbc8d6"
+            "color": "#ddcbd8"
           },
           {
             "file": "2021-02-2021-02-3. iOS 5.5 inch-min.jpg",
-            "color": "#8d06f9"
+            "color": "#8e06f8"
           }
         ],
         "url": "https://get-bouquet.com",
@@ -659,7 +659,7 @@
         "subtitle": "Доставка цветов",
         "description": "Бэк-энд для цветочного сервиса. Android, iOS and Web-версия работают с Node.js API. Для проекта также реализована уникальная система управления Web и Telegram бот для сборщиков и доставщиков.",
         "highlight": true,
-        "logo": "#6c24f3"
+        "logo": "#7404fb"
       },
       "number": "02",
       "name": "GetBouquet"
@@ -670,17 +670,17 @@
         "Node.js",
         "Server",
         "Solidity",
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": [
           {
             "file": "2021-03-0.png",
-            "color": "#355721"
+            "color": "#2e2a25"
           },
           {
             "file": "2021-03-1.png",
-            "color": "#3a3429"
+            "color": "#3b3327"
           }
         ],
         "url": "https://nft-art.live",
@@ -695,7 +695,7 @@
       "year": "2021",
       "tags": [
         "Bot",
-        "Node.js"
+        "Node.js\n"
       ],
       "info": {
         "files": [
@@ -716,7 +716,7 @@
       "year": "2022",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": [
@@ -746,7 +746,7 @@
     {
       "year": "2022",
       "tags": [
-        "Swift"
+        "Swift\n"
       ],
       "info": {
         "files": [
@@ -766,7 +766,7 @@
       "year": "2022",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": [
@@ -801,7 +801,7 @@
       "year": "2023",
       "tags": [
         "Swift",
-        "iOS"
+        "iOS\n"
       ],
       "info": {
         "files": [
@@ -837,7 +837,7 @@
       "tags": [
         "C",
         "Node.js",
-        "Web"
+        "Web\n"
       ],
       "info": {
         "files": [
@@ -847,11 +847,11 @@
           },
           {
             "file": "2023-02-2.jpg",
-            "color": "#866348"
+            "color": "#896042"
           },
           {
             "file": "2023-02-3.jpg",
-            "color": "#8d6b49"
+            "color": "#926943"
           }
         ],
         "title": "ARKA",
@@ -865,25 +865,26 @@
     {
       "year": "2024",
       "tags": [
-        "visionOS"
+        "Swift",
+        "visionOS\n"
       ],
       "info": {
         "files": [
           {
             "file": "2024-01-1.png",
-            "color": "#5d5144"
+            "color": "#5f5042"
           },
           {
             "file": "2024-01-2.png",
-            "color": "#3c342b"
+            "color": "#3f352b"
           },
           {
             "file": "2024-01-3.png",
-            "color": "#4f473e"
+            "color": "#5c5045"
           },
           {
             "file": "2024-01-4.png",
-            "color": "#372e26"
+            "color": "#382d25"
           }
         ],
         "ios": "https://apps.apple.com/us/app/cuts-for-vision-pro/id6478470622",
@@ -895,6 +896,84 @@
       },
       "number": "01",
       "name": "CUTS"
+    },
+    {
+      "year": "2024",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": [
+          {
+            "file": "2024-02-1.jpg",
+            "color": "#edeeed"
+          },
+          {
+            "file": "2024-02-2.jpg",
+            "color": "#1c1d20"
+          },
+          {
+            "file": "2024-02-3.jpg",
+            "color": "#e8ebeb"
+          },
+          {
+            "file": "2024-02-4.jpg",
+            "color": "#edeced"
+          },
+          {
+            "file": "2024-02-5.jpg",
+            "color": "#eff1f3"
+          }
+        ],
+        "ios": "https://apps.apple.com/us/app/paste-endless-clipboard/id967805235",
+        "title": "Paste",
+        "subtitle": "Менеджер буфера обмена",
+        "description": "Paste — это новый способ сохранения, поиска и организации всего, что вы копируете на Mac, iPhone и iPad.",
+        "highlight": true,
+        "logo": "#f6a028"
+      },
+      "number": "02",
+      "name": "Paste"
+    },
+    {
+      "year": "2024",
+      "tags": [
+        "Swift",
+        "iOS\n"
+      ],
+      "info": {
+        "files": [
+          {
+            "file": "2024-03-1.jpg",
+            "color": "#be70e5"
+          },
+          {
+            "file": "2024-03-2.jpg",
+            "color": "#cf6cce"
+          },
+          {
+            "file": "2024-03-3.jpg",
+            "color": "#cd6cda"
+          },
+          {
+            "file": "2024-03-4.jpg",
+            "color": "#c771b3"
+          },
+          {
+            "file": "2024-03-5.jpg",
+            "color": "#c573cb"
+          }
+        ],
+        "ios": "https://apps.apple.com/us/app/wishlist-maker-wishes/id6479377591",
+        "title": "Wishes",
+        "subtitle": "Вишлист-органайзер",
+        "description": "Собирайте и организуйте свои желания с уникальным опытом и без регистрации. Легко делитесь своими списками желаний с кем угодно на любой платформе.",
+        "highlight": true,
+        "logo": "#c64adf"
+      },
+      "number": "03",
+      "name": "Wishes"
     }
   ]
 }
